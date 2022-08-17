@@ -20,7 +20,7 @@ header{
     padding-left: 40px;
 }
 .menu{
-    background-color:rgba(255, 255, 255, 0.068);
+    background-color:rgba(255, 255, 255, 0.144);
     float:right;
     list-style-type: none;
     padding-right: 100px;
@@ -30,8 +30,7 @@ header{
 }
 .menu li{
     float:left;
-    padding:38px 
-
+    padding:38px;
 }
 .logo{
     margin-top:26px;
@@ -48,3 +47,18 @@ header{
     background-color:rgba(255, 255, 255, 0.171);
 }
 
+h1{
+    font-size: 150px;
+}
+h2{
+    font-size: 100px;
+}
+h3{
+    font-size: 56px;
+}
+h4{
+    font-family: 32px;
+}
+h5{
+    font-size: 28px;
+}
