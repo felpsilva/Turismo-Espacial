@@ -29,8 +29,15 @@ header{
 
 }
 .menu li{
-    float:left;
-    padding:38px;
+    float: left;
+    padding-bottom: 38px;
+    margin: 38px;
+    margin-bottom: 0px;
+}
+.menu li:hover{
+    padding-bottom:36px;
+    border-bottom: 2px solid #fff;    float:left;
+
 }
 .logo{
     margin-top:26px;
@@ -38,7 +45,7 @@ header{
 }
 .linha{
     display: inline-block;
-    width: 455px;
+    width: 33%;
     height: 2px;
     background-color: #fff;
     margin-left: 65px;
