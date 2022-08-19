@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <style>
-    section{
-      width:50%;
+    section {
+      width: 50%;
+    }
+
+    .s1{
+      padding-left: 7%;
+      padding-top: 12%;
     }
     article{
-    padding-left:20%;
-    padding-top: 15%;
+      display:flex
     }
-    .explore{
-      width:200px;
-      height:200px;
-      background-color: #fff;
+    .s2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .xp{
+      margin-top:83px;
+      color:#000;
+      font-family: bellefair;
+    }
+    .explore {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 200px;
+    margin-right: 5%;
+    border-radius: 100px;
+    text-align: center;
+    }
+    .explore:hover{
+    border: 50px solid rgb(124, 115, 115);
+    box-sizing: content-box;
+    border-radius:125px
     }
   </style>
   <title>Frontend Mentor | Space tourism website</title>
@@ -27,28 +51,30 @@
     <header>
       <img class="logo" src="assets/shared/logo.svg" alt="">
       <div class="linha"></div>
-    <ul class="menu">
-      <li>00 HOME</li>
-      <li>01 DESTINO</li>
-      <li>02 EQUIPE TÉCNICA</li>
-      <li>03 TECNOLOGIA</li>
-    </ul>  
-  </header>
-  <section>
-    <article>  
-  <h5>SO, YOU WANT TRAVEL TO</h5>
-  <h1>ESPAÇO</h1>
-  <p>Let’s face it; if you want to go to space, you might as well genuinely go to 
-    outer space and not hover kind of on the edge of it. Well sit back, and relax 
-    because we’ll give you a truly out of this world experience!</p> 
-  </article>
-</section>
-<section>
-  <!--div class="explore">
-    <h5>EXPLORE</h5>
-  </div-->
-</section>
+      <ul class="menu">
+        <li>00 HOME</li>
+        <li>01 DESTINO</li>
+        <li>02 EQUIPE TÉCNICA</li>
+        <li>03 TECNOLOGIA</li>
+      </ul>
+    </header>
+    <article>
+      <section class="s1">
+        <h5>ENTÃO, VOCÊ QUER VIAJAR PARA</h5>
+        <h1>ESPAÇO</h1>
+        <p>Vejamos; se você quer ir para o espaço, você pode ir genuinamente para o espaço sideral e não pairar meio que
+          à beira dele. Bem, sente-se e relaxe porque nós lhe daremos uma experiência verdadeiramente fora deste mundo!
+        </p>
+    </section>
+    <section class="s2">
+      <div class="explore">
+        <h5 class="xp">EXPLORE</h5> 
+      </div>
+    </section>
+    </article>
+
   </main>
-  
+
 </body>
+
 </html>
