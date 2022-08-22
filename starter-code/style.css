@@ -12,13 +12,16 @@
     src: url('./fonts/Bellefair-Regular.otf');
 }
 body{
-    background-image:url('./assets/home/background-home-desktop.jpg');
     color:#fff;
     background-repeat: no-repeat;
     background-size: cover;
 }
-main{
-    height: 600px;
+article{
+    display:flex;
+}
+
+section{
+    width: 50%;
 }
 
 header{
@@ -101,3 +104,25 @@ p{
 .explore{
     color:#000
 }
+.num{
+    color:#485159;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+.destinos li{
+    float:left;
+    list-style-type: none;
+    margin:20px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-family: barlow regular;
+    font-size: 16px;
+    letter-spacing: 2.7;
+
+}
+.info{
+    display:flex;
+    flex-direction: column;
+}
+
