@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,42 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <style>
-    body{
+    body {
       background-image: url('./assets/destination/background-destination-desktop.jpg');
     }
-    h5{
 
+    h5 {}
+
+    .escolha {
+      letter-spacing: 0.75px;
+      color: #fff;
+      display: inline-block;
     }
-    .escolha{
-          letter-spacing: 0.75px;
-          color:#fff;
-          display: inline-block;
+
+    .lua {
+      margin-top: 40px;
+      margin-left: 10%;
+    }
+
+    .apr {
+      margin-bottom: 40px
+    }
+
+    .subtitulo h1 {
+      font-size: 28px;
+      font-family: bellefair;
+    }
+
+    .subtitulo h2 {
+      font-size: 14px;
+      font-family: barlow regular
     }
   </style>
   <title>Turismo espacial</title>
 </head>
+
 <body>
-<main>
+  <main>
     <header>
       <img class="logo" src="assets/shared/logo.svg" alt="">
       <div class="linha"></div>
@@ -34,38 +55,52 @@
       </ul>
     </header>
     <article>
-     <section>
-      <h5 class="num">01 </h5>
-      <h5 class="escolha"> PICK YOUR DESTINATION</h5>
-      <img src="./assets/destination/image-moon.png" alt="">
-     </section>
-     <section class="info">
-      <nav>      
-        <ul class="destinos">
-        <li>MOON</li>
-        <li>MARS</li>
-        <li>EUROPA</li>
-        <li>TITAN</li>
-      </ul>
-    </nav>
+      <section class="contain-planet">
+        <div class="apr">
+          <h5 class="num">01 </h5>
+          <h5 class="escolha"> PICK YOUR DESTINATION</h5>
+        </div>
 
-      
-      <h2>MOON</h2>
-    
-      <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-      regain perspective and come back refreshed. While you’re there, take in some history 
-      by visiting the Luna 2 and Apollo 11 landing sites.</p> 
-    
-      Avg. distance
-      384,400 km
-    
-      Est. travel time
-      3 days
-     </section> 
+        <img class="lua" src="./assets/destination/image-moon.png" alt="Lua">
+      </section>
+      <section class="info">
+        <nav>
+          <ul class="destinos">
+            <li>MOON</li>
+            <li>MARS</li>
+            <li>EUROPA</li>
+            <li>TITAN</li>
+          </ul>
+        </nav>
+
+
+        <h2>MOON</h2>
+
+        <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+          regain perspective and come back refreshed. While you’re there, take in some history
+          by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <div class="linha2"></div>
+
+        <div class="subtitulo">
+          <div>
+            <h2>Avg. distance</h2>
+            <h1>384,400 KM</h1>
+          </div>
+
+          <div>
+            <h2>Est. travel time</h2>
+            <h1>3 days</h1>
+          </div>
+
+
+        </div>
+
+      </section>
     </article>
-</main>
-  
+  </main>
 
-  
+
+
 </body>
+
 </html>
