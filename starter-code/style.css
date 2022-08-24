@@ -105,6 +105,11 @@ p{
 .explore{
     color:#000
 }
+.escolha {
+    letter-spacing: 0.75px;
+    color: #fff;
+    display: inline-block;
+  }
 .num{
     color:#485159;
     font-weight: bold;
@@ -132,7 +137,7 @@ p{
 .info{
     display:flex;
     flex-direction: column;
-    width: 20%;
+    width: 25%;
     margin-left: 10%;
 }
 .contain-planet{
@@ -149,5 +154,4 @@ p{
 }
 .subtitulo div{
     display: inline-block;
-    margin-right: 15%;
 }

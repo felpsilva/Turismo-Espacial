@@ -7,6 +7,59 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Turismo espacial</title>
+  <style>
+        body {
+      background-image: url('./assets/crew/background-crew-desktop.jpg');
+      }
+      section h4{
+        font-family: bellrfair;
+        color:#485159;
+        margin-bottom: 20px;
+      }
+      section h3{
+        margin-bottom: 25px;
+      }
+      header{
+        margin-bottom: 60px;
+      }
+      section{
+        margin-left:8%;
+        padding-right:15%;
+      }
+      .apr{
+        margin-top: 10px;
+        margin-bottom: 150px;
+      }
+      .equipe{
+        margin-top: 150px;
+      }
+      .radio{
+        width: 17px;
+        height: 17px;
+        margin: 10px;
+        appearance: none;
+        border-radius: 10px;
+        background-color:rgba(255, 255, 255, 0.144);
+        cursor:pointer;
+        position:relative;
+      }
+      .radio:before{
+        position:absolute;
+        content:'';
+        width: 17px;
+        height: 17px;
+        background:#fff;
+        border-radius:10px;
+        opacity:0; 
+        transition:all 300ms ease-in-out;
+      }
+      .radio:checked:before{
+      opacity: 1;
+      }
+      .tecnico{
+        width: 50%;
+      }
+    </style>
 </head>
 <body>
   <main>
@@ -20,20 +73,32 @@
       <li>03 Tecnologia</li>
     </ul>  
   </header>
-  <section>
+  <article>
+    <section class="tecnico">
+    <div class="apr">
+      <h5 class="num">02 </h5>
+      <h5 class="escolha"> MEET YOUR CREW</h5>
+    </div>
+    <h4>COMMANDER</h4>
 
-    
+    <h3>DOUGLAS HURLEY</h3>
+
+    <p>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+      and former NASA astronaut. He launched into space for the third time as 
+      commander of Crew Dragon Demo-2.</p>
+
+      <div class="equipe">
+        <input class="radio" type="radio" name="tec" id="douglas" checked>
+        <input class="radio" type="radio" name="tec" id="mark">
+        <input class="radio" type="radio" name="tec" id="victor">
+        <input class="radio" type="radio" name="tec" id="ansari">
+      </div>
   </section>
-
-
-  02 Meet your crew
-
-  Commander
-  Douglas Hurley
-
-  Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
-  and former NASA astronaut. He launched into space for the third time as 
-  commander of Crew Dragon Demo-2.
+  <section>
+    <img src="./assets/crew/image-douglas-hurley.png" alt="Douglas Hurley">
+  </section>
+</article>
+  
   </main>
   
 </body>
