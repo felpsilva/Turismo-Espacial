@@ -1,28 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Turismo espacial</title>
+  <style>
+    body {
+      background-image: url('./assets/crew/background-crew-desktop.jpg');
+    }
+
+    section h4 {
+      font-family: bellrfair;
+      color: #485159;
+      margin-bottom: 20px;
+    }
+
+    section h3 {
+      margin-bottom: 25px;
+    }
+
+    header {
+      margin-bottom: 60px;
+    }
+
+    section {
+      margin-left: 8%;
+      padding-right: 15%;
+    }
+
+    .apr {
+      margin-top: 10px;
+      margin-bottom: 150px;
+    }
+
+    .equipe {
+      margin-top: 150px;
+    }
+
+    .radio {
+      width: 17px;
+      height: 17px;
+      margin: 10px;
+      appearance: none;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.144);
+      cursor: pointer;
+      position: relative;
+    }
+
+    .radio:before {
+      position: absolute;
+      content: '';
+      width: 17px;
+      height: 17px;
+      background: #fff;
+      border-radius: 10px;
+      opacity: 0;
+      transition: all 300ms ease-in-out;
+    }
+
+    .radio:checked:before {
+      opacity: 1;
+    }
+
+    .tecnico {
+      width: 50%;
+    }
+
+    .crew {
+      position: relative;
+    }
+
+    .crew img {
+      position: fixed;
+      bottom: 0;
+    }
+  </style>
 </head>
+
 <body>
+  <main>
+    <header>
+      <img class="logo" src="assets/shared/logo.svg" alt="">
+      <div class="linha"></div>
+      <ul class="menu">
+        <li>00 Home</li>
+        <li>01 Destino</li>
+        <li>02 Equipe técnica</li>
+        <li>03 Tecnologia</li>
+      </ul>
+    </header>
+    <article>
+      <section class="tecnico">
+        <div class="apr">
+          <h5 class="num">02 </h5>
+          <h5 class="escolha"> MEET YOUR CREW</h5>
+        </div>
+        <h4>Pilot</h4>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+        <h3> VICTOR GLOVER</h3>
 
-  02 Meet your crew
+        <p> Pilot on the first operational flight of the SpaceX Crew Dragon to the
+          International Space Station. Glover is a commander in the U.S. Navy where
+          he pilots an F/A-18.He was a crew member of Expedition 64, and served as a
+          station systems flight engineer.</p>
 
-  Pilot
-  Victor Glover
+        <div class="equipe">
+          <input class="radio" type="radio" name="tec" id="douglas" checked>
+          <input class="radio" type="radio" name="tec" id="mark">
+          <input class="radio" type="radio" name="tec" id="victor">
+          <input class="radio" type="radio" name="tec" id="ansari">
+        </div>
+      </section>
+      <section class="crew">
+        <img src="./assets/creW/image-victor-glover.png" alt="Douglas Hurley">
+      </section>
+    </article>
 
-  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-  International Space Station. Glover is a commander in the U.S. Navy where 
-  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-  station systems flight engineer. 
+  </main>
+
 </body>
+
 </html>
