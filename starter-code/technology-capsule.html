@@ -9,22 +9,6 @@
     body{
       background-image: url('./assets/technology/background-technology-desktop.jpg');
     }
-    .buttons button{
-    width: 75px;
-    height: 75px;
-    border-radius: 40px;
-    font-size: 30px;
-    font-family: bellefair;
-    color:#fff;
-    background-color: rgba(255, 255, 255, 0);
-    border: 0.5px solid rgba(255, 255, 255, 0.144);
-    margin:15px
-    }
-    .buttons{
-      display:inline-block;
-      width: 100px;
-      margin-right: 8%;
-    }
     .apr{
       margin-bottom: 125px;
     }
@@ -44,6 +28,18 @@
       margin-left: 8%;
       padding-right: 10%;
     }
+
+    .tecnology{
+      position: relative;
+    }
+    .tecnology img{
+      position: absolute;
+      right: 0;
+    }
+    #b1{
+      color:#000;
+      background-color: #fff;
+    }
   </style>
   <title>Frontend Mentor | Space tourism website</title>
 </head>
@@ -53,10 +49,10 @@
     <img class="logo" src="assets/shared/logo.svg" alt="">
     <div class="linha"></div>
     <ul class="menu">
-      <li>00 HOME</li>
-      <li>01 DESTINO</li>
-      <li>02 EQUIPE TÉCNICA</li>
-      <li>03 TECNOLOGIA</li>
+      <li><strong>00</strong> HOME</li>
+      <li><strong>01</strong> DESTINO</li>
+      <li><strong>02</strong> EQUIPE TÉCNICA</li>
+      <li><strong>03</strong> TECNOLOGIA</li>
     </ul>
   </header>
   <article>
@@ -67,12 +63,12 @@
       </div>
       <div class="container">
       <nav class="buttons">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
+        <button id="b1">1</button>
+        <button id="b2">2</button>
+        <button id="b3">3</button>
       </nav>
       <div class="info-tec">
-        <p>THE TERMINOLOGY</p>
+        <p>THE TERMINOLOGY...</p>
         <h3>SPACE CAPSULE</h3>
         <P>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
           capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
@@ -81,6 +77,9 @@
       </div>
     </div>
 
+    </section>
+    <section class="tecnology">
+      <img src="./assets/technology/image-space-capsule-portrait.jpg" alt="">
     </section>
   </article>
   </main>

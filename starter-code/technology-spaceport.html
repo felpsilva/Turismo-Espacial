@@ -6,27 +6,86 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      background-image: url('./assets/technology/background-technology-desktop.jpg');
+    }
+    .apr{
+      margin-bottom: 125px;
+    }
+    .container{
+      position: relative;
+    }
+    .info-tec{
+    width: 60%;
+    display: inline-block;
+    position: absolute;
+    }
+    .info-tec p{
+      margin-top:20px;
+      margin-bottom: 20px;
+    }
+    .contain{
+      margin-left: 8%;
+      padding-right: 10%;
+    }
+
+    .tecnology{
+      position: relative;
+    }
+    .tecnology img{
+      position: absolute;
+      right: 0;
+    }
+    #b1{
+      color:#000;
+      background-color: #fff;
+    }
+  </style>
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
+  <main>
+      <header>
+    <img class="logo" src="assets/shared/logo.svg" alt="">
+    <div class="linha"></div>
+    <ul class="menu">
+      <li>00 HOME</li>
+      <li>01 DESTINO</li>
+      <li>02 EQUIPE TÉCNICA</li>
+      <li>03 TECNOLOGIA</li>
+    </ul>
+  </header>
+  <article>
+    <section class="contain">
+      <div class="apr">
+        <h5 class="num">03 </h5>
+        <h5 class="escolha"> SPACE LAUNCH 101</h5>
+      </div>
+      <div class="container">
+      <nav class="buttons">
+        <button id="b1">1</button>
+        <button id="b2">2</button>
+        <button id="b3">3</button>
+      </nav>
+      <div class="info-tec">
+        <p>THE TERMINOLOGY...</p>
+        <h3>SPACEPORT</h3>
+        <P>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
+          by analogy to the seaport for ships or airport for aircraft. Based in the 
+          famous Cape Canaveral, our spaceport is ideally situated to take advantage 
+          of the Earth’s rotation for launch.</P>
+      </div>
+    </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    </section>
+    <section class="tecnology">
+      <img src="./assets/technology/image-spaceport-portrait.jpg" alt="">
+    </section>
+  </article>
+  </main>
 
-  03 Space launch 101
-
-  1
-  2
-  3
-
-  The terminology...
-  Spaceport
-
-  A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
-  by analogy to the seaport for ships or airport for aircraft. Based in the 
-  famous Cape Canaveral, our spaceport is ideally situated to take advantage 
-  of the Earth’s rotation for launch.
+  
 </body>
 </html>

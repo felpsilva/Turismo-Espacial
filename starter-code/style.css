@@ -49,7 +49,13 @@ header{
 }
 .menu li:hover{
     padding-bottom:36px;
-    border-bottom: 2px solid #fff;    float:left;
+    border-bottom: 2px solid #85868b;    
+
+
+}
+.menu li:active{
+    padding-bottom:36px;
+    border-bottom: 2px solid #fff;   
 
 }
 .logo{
@@ -131,7 +137,8 @@ p{
 }
 .destinos li:hover{
     padding-bottom:18px;
-    border-bottom: 2px solid #fff;    float:left;
+    border-bottom: 2px solid #85868b;    float:left;
+    cursor: pointer;
 
 }
 .info{
@@ -154,4 +161,25 @@ p{
 }
 .subtitulo div{
     display: inline-block;
+}
+.buttons button{
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+    font-size: 30px;
+    font-family: bellefair;
+    color:#fff;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.5px solid rgba(255, 255, 255, 0.144);
+    margin:15px
+    }
+.buttons{
+    display:inline-block;
+    width: 100px;
+    margin-right: 8%;
+  }
+button:hover{
+    border:1px solid #fff;
+    transition:all 300ms ease-in-out;
+    cursor:pointer;
 }
