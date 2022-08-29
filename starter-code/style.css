@@ -25,11 +25,12 @@ section{
 }
 
 header{
+    position: relative;
     margin-top:40px;
     width: 100%;
     height:100px;
     padding-left: 40px;
-    margin-bottom: 85px
+    margin-bottom: 35px;
 }
 .menu{
     background-color:rgba(255, 255, 255, 0.144);
@@ -63,6 +64,7 @@ header{
     margin-bottom:26px;
 }
 .linha{
+    position:absolute;
     display: inline-block;
     width: 33%;
     height: 2px;
@@ -178,8 +180,25 @@ p{
     width: 100px;
     margin-right: 8%;
   }
-button:hover{
+.buttons button:hover{
     border:1px solid #fff;
     transition:all 300ms ease-in-out;
     cursor:pointer;
+}
+.crew{
+    position:relative;
+  }
+.crew img{
+    position: fixed;
+    bottom: 0;
+  }
+.equipe{
+    position: fixed;
+    bottom: 35px;
+  }
+@media(max-width:1370px){
+
+}
+.tecnico p{
+    width:55%;
 }
