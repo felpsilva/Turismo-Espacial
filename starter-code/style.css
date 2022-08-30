@@ -178,8 +178,9 @@ p{
 .buttons{
     display:inline-block;
     width: 100px;
-    margin-right: 8%;
-  }
+    margin-right: 45px;
+}
+
 .buttons button:hover{
     border:1px solid #fff;
     transition:all 300ms ease-in-out;
