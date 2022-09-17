@@ -108,6 +108,10 @@ p{
     color:#d0d6f9;
     line-height: 25px;
 }
+a{
+    text-decoration: none;
+    color:inherit
+}
 .explore{
     color:#000
 }

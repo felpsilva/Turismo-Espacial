@@ -14,7 +14,7 @@
       .crew img{
     width: 370px;
     height: 500px;
-}
+      }
       section h4{
         font-family: bellrfair;
         color:#485159;
@@ -40,6 +40,7 @@
         background-color:rgba(255, 255, 255, 0.144);
         cursor:pointer;
         position:relative;
+        border:0px;
       }
       .radio:before{
         position:absolute;
@@ -50,6 +51,7 @@
         border-radius:10px;
         opacity:0; 
         transition:all 300ms ease-in-out;
+        
       }
       .radio:hover{
         background-color: #85868b;
@@ -69,10 +71,10 @@
     <header>
       <img class="logo" src="assets/shared/logo.svg" alt="">
     <ul class="menu">
-      <li>00 Home</li>
-      <li>01 Destino</li>
+      <a href="/"><li>00 HOME</li></a>
+      <li><a href="/lua">01 DESTINO</a> </li>
       <li>02 Equipe técnica</li>
-      <li>03 Tecnologia</li>
+      <li><a href="/tecnologia">03 Tecnologia</a></li>
     </ul>  
   </header>
   <article>
@@ -81,27 +83,33 @@
       <h5 class="num">02 </h5>
       <h5 class="escolha"> MEET YOUR CREW</h5>
     </div>
-    <h4>COMMANDER</h4>
+    <h4 id="func">COMMANDER</h4>
 
-    <h3>DOUGLAS HURLEY</h3>
+    <h3 id="nome">DOUGLAS HURLEY</h3>
 
-    <p>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+    <p id="resumo">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
       and former NASA astronaut. He launched into space for the third time as 
       commander of Crew Dragon Demo-2.</p>
 
       <div class="equipe">
-        <input class="radio" type="radio" name="tec" id="douglas" checked>
-        <input class="radio" type="radio" name="tec" id="mark">
-        <input class="radio" type="radio" name="tec" id="victor">
-        <input class="radio" type="radio" name="tec" id="ansari">
+        <button class="radio" id="comandante"></button>
+        <button class="radio" id="especialista"></button>
+        <button class="radio" id="piloto"></button>
+        <button class="radio" id="engenheira"></button>
+
       </div>
   </section>
   <section class="crew">
-    <img src="./assets/crew/image-douglas-hurley.png" alt="Douglas Hurley">
+    <img src="./assets/crew/image-douglas-hurley.png" alt="Douglas Hurley" id="imgTec">
   </section>
 </article>
-  
+
   </main>
+  <script src="script.js"></script>
+  <script>
+
+
+  </script>
   
 </body>
 </html>
