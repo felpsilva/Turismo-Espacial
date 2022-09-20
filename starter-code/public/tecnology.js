@@ -34,25 +34,25 @@ let tecnologia3 = {
 
   function selectTecnologyStyle(){
         bot1.addEventListener('click', () => {
-            bot2.style.background = "#00000000"
+            bot2.style.background = "rgba(0,0,0, 00%)"
             bot2.style.color = "#fff"
             bot1.style.background = "#fff"
             bot1.style.color = "#000"
-            bot3.style.background = "#00000000"
+            bot3.style.background = "rgba(0,0,0, 00%)"
             bot3.style.color = "#fff"
     })
         bot2.addEventListener('click', () => {
             bot2.style.background = "#fff"
             bot2.style.color = "#000"
-            bot1.style.background = "#00000000"
+            bot1.style.background = "rgba(0,0,0, 00%)"
             bot1.style.color = "#fff"
-            bot3.style.background = "#00000000"
+            bot3.style.background = "rgba(0,0,0, 00%)"
             bot3.style.color = "#fff"
     })
         bot3.addEventListener('click', () => {
-            bot2.style.background = "#00000000"
+            bot2.style.background = "rgba(0,0,0, 00%)"
             bot2.style.color = "#fff"
-            bot1.style.background = "#0000000"
+            bot1.style.background = "rgba(0,0,0, 00%)"
             bot1.style.color = "#fff"
             bot3.style.background = "#fff"
             bot3.style.color = "#000"

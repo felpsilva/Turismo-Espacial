@@ -47,14 +47,9 @@ header{
     margin-bottom: 0px;
 }
 .menu li:hover{
-    padding-bottom:36px;
+    /* padding-bottom:36px; */
     border-bottom: 2px solid #85868b;    
 
-
-}
-.menu li:active{
-    padding-bottom:36px;
-    border-bottom: 2px solid #fff;   
 
 }
 .logo{
@@ -134,14 +129,13 @@ a{
     float:left;
     list-style-type: none;
     margin:20px;
-    margin-bottom: 0px;
+    margin-bottom: 35px;
     padding-bottom: 20px;
     font-family: barlow regular;
     font-size: 16px;
     letter-spacing: 2.7;
 }
 .destinos li:hover{
-    padding-bottom:18px;
     border-bottom: 2px solid #85868b;    float:left;
     cursor: pointer;
 
@@ -183,7 +177,10 @@ a{
     width: 100px;
     margin-right: 45px;
 }
-
+#imgTec{
+    width: 475px;
+    height: 650px;
+}
 .buttons button:hover{
     border:1px solid #fff;
     transition:all 300ms ease-in-out;
@@ -199,6 +196,9 @@ a{
 .equipe{
     position: fixed;
     bottom: 35px;
+  }
+  .borda{
+        border-bottom: 2px solid #fff !important; 
   }
 @media(max-width:1150px){
     .s1{

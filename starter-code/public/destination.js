@@ -52,12 +52,49 @@ let europa = document.querySelector('#europa');
 let titan = document.querySelector('#titan');
 
 selectTec()
+selectTecStyle()
 
 let imgDestino = document.querySelector('#destinoImg')
 let destinoNome = document.querySelector('#destinoNome')
 let descricao = document.querySelector('#descricao');
 let distancia = document.querySelector('#distancia');
 let tempoViagem = document.querySelector('#tempoViagem')
+
+
+
+function selectTecStyle(){
+  lua.addEventListener('click', ()=>{
+    lua.classList.add('borda');
+    marte.classList.remove('borda');
+    europa.classList.remove('borda');
+    titan.classList.remove('borda');
+
+
+  }
+  );
+  marte.addEventListener('click', ()=>{
+    lua.classList.remove('borda');
+    marte.classList.add('borda');
+    europa.classList.remove('borda');
+    titan.classList.remove('borda');
+  }
+  );
+  europa.addEventListener('click', ()=>{
+    lua.classList.remove('borda');
+    marte.classList.remove('borda');
+    europa.classList.add('borda');
+    titan.classList.remove('borda');
+  }
+  );
+  titan.addEventListener('click', ()=>{
+    lua.classList.remove('borda');
+    marte.classList.remove('borda');
+    europa.classList.remove('borda');
+    titan.classList.add('borda');
+  }
+  );
+}
+
 
 function selectTec(){
     lua.addEventListener('click', () => {
@@ -131,5 +168,7 @@ function selectTec(){
     descricao.innerHTML = description;
     distancia.innerHTML = distance;
     tempoViagem.innerHTML = travel
-  }
+    
+    lua.classList.add('borda');
+  };
 

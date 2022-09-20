@@ -52,17 +52,23 @@
     header{
       margin-bottom: 160px; 
     }
+    .home{
+      border-bottom: 2px solid #fff;   
+    }
+    .home:hover{
+      border-bottom: 2px solid #fff !important; 
+    }
 
   </style>
   <title>Turismo espacial</title>
 </head>
 
-<body>
+<body onselectstart="return false">
   <main>
     <header>
       <img class="logo" src="assets/shared/logo.svg" alt="">
         <ul class="menu">
-          <a href="/"><li><strong>00</strong> HOME</li></a>
+          <a href="/"><li class="home"><strong>00</strong> HOME</li></a>
           <a href="/destino"><li><strong>01</strong> DESTINO</li></a>
           <a href="/equipe-tecnica"><li> <strong>02</strong> EQUIPE TÉCNICA</li></a>
           <a href="/tecnologia"><li> <strong>03</strong> TECNOLOGIA</li></a>

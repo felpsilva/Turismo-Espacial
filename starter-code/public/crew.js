@@ -87,9 +87,11 @@ let resumo = document.querySelector('#resumo');
 function selectTec(){
   comandante.addEventListener('click', () => {
     imgTec.src = equipe1.images.png;
+    imgTec.style.widht = '475px';
+    imgTec.style.height = '650px';
     let role = equipe1.role;
-     let name = equipe1.name;
-     let bio = equipe1.bio;
+    let name = equipe1.name;
+    let bio = equipe1.bio;
 
      func.innerHTML = role;
      nome.innerHTML = name;
@@ -98,6 +100,8 @@ function selectTec(){
   });
   especialista.addEventListener('click', () => {
     imgTec.src = equipe2.images.png;
+    imgTec.style.widht = '440px';
+    imgTec.style.height = '616px';
     let role = equipe2.role;
     let name = equipe2.name;
     let bio = equipe2.bio;
@@ -108,6 +112,8 @@ function selectTec(){
   });
   piloto.addEventListener('click', () => {
     imgTec.src = equipe3.images.png;
+    imgTec.style.widht = '495px';
+    imgTec.style.height = '615px';
     let role = equipe3.role;
     let name = equipe3.name;
     let bio = equipe3.bio;
@@ -118,6 +124,7 @@ function selectTec(){
   });
   engenheira.addEventListener('click', () => {
     imgTec.src = equipe4.images.png;
+    imgTec.style.width = '500px'
     let role = equipe4.role;
     let name = equipe4.name;
     let bio = equipe4.bio;
