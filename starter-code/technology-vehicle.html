@@ -52,16 +52,16 @@
   </style>
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body onload="upData()">
   <main>
       <header>
     <img class="logo" src="assets/shared/logo.svg" alt="">
     <div class="linha"></div>
     <ul class="menu">
-      <li><a href="/"><strong>00</strong> HOME</a></li>
-      <li><a href="/lua"><strong>01</strong> DESTINO</a> </li>
-      <li>02 EQUIPE TÉCNICA</li>
-      <li>03 TECNOLOGIA</li>
+      <a href="/"><li><strong>00</strong> HOME</li></a>
+      <a href="/destino"><li><strong>01</strong> DESTINO</li></a>
+      <a href="/equipe-tecnica"><li> <strong>02</strong> EQUIPE TÉCNICA</li></a>
+      <a href="/tecnologia"><li> <strong>03</strong> TECNOLOGIA</li></a>
     </ul>
   </header>
   <article>
@@ -78,20 +78,17 @@
       </nav>
       <div class="info-tec">
         <p>THE TERMINOLOGY...</p>
-        <h3>lAUNCH VEHICLE</h3>
-        <P>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-          payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-          WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-          it's quite an awe-inspiring sight on the launch pad!</P>
+        <h3 id="tecnologiaNome"></h3>
+        <P id="descricao"></P>
       </div>
     </div>
 
     </section>
     <section class="tecnology">
-      <img src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="">
+      <img id="tecnoImg" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="">
     </section>
   </article>
   </main>
-  
+  <script src="tecnology.js"></script>
 </body>
 </html>

@@ -1,3 +1,43 @@
+let equipe1 = {
+    "name": "DOUGLAS HURLEY",
+    "images": {
+      "png": "./assets/crew/image-douglas-hurley.png",
+      "webp": "./assets/crew/image-douglas-hurley.webp"
+    },
+    "role": "COMANDANTE",
+    "bio": "Douglas Gerald Hurley é um engenheiro americano, ex-piloto do Corpo de Fuzileiros Navais e ex-astronauta da NASA. Ele foi lançado ao espaço pela terceira vez como comandante da Crew Dragon Demo-2."
+  }
+
+  let equipe2 = {
+    "name": "MARK SHUTTLEWORTH",
+    "images": {
+      "png": "./assets/crew/image-mark-shuttleworth.png",
+      "webp": "./assets/crew/image-mark-shuttleworth.webp"
+    },
+    "role": "ESPECIALISTA EM MISSÃO",
+    "bio": "Mark Richard Shuttleworth é o fundador e CEO da Canonical, a empresa por trás do sistema operacional Ubuntu baseado em Linux. Shuttleworth se tornou o primeiro sul-africano a viajar para o espaço como turista espacial."
+  }
+
+  let equipe3 = {
+    "name": "VICTOR GLOVER",
+    "images": {
+      "png": "./assets/crew/image-victor-glover.png",
+      "webp": "./assets/crew/image-victor-glover.webp"
+    },
+    "role": "PILOTO",
+    "bio": "Piloto no primeiro voo operacional da SpaceX Crew Dragon para a Estação Espacial Internacional. Glover é um comandante da Marinha dos EUA, onde pilota um F/A-18. Ele foi membro da tripulação da Expedição 64 e serviu como engenheiro de voo de sistemas de estação."
+  }
+
+  let equipe4 = {
+    "name": "ANOUSHEH ANSARI",
+    "images": {
+      "png": "./assets/crew/image-anousheh-ansari.png",
+      "webp": "./assets/crew/image-anousheh-ansari.webp"
+    },
+    "role": "ENGENHEIRA DE VOO",
+    "bio": "Anousheh Ansari é uma engenheira iraniana-americana e cofundadora da Prodea Systems. Ansari foi a quarta turista espacial autofinanciada, a primeira mulher autofinanciada a voar para a ISS e a primeira iraniana no espaço."
+  }
+  
 let comandante = document.querySelector('#comandante');
 let especialista = document.querySelector('#especialista');
 let piloto = document.querySelector('#piloto');
@@ -37,8 +77,6 @@ function selectAparence(){
 
 }; 
 
-// const data = require('data.json')
-// console.log(data)
 
 let imgTec = document.querySelector('#imgTec');
 let func = document.querySelector('#func');
@@ -92,42 +130,17 @@ function selectTec(){
 
 
 
-let equipe1 = {
-    "name": "Douglas Hurley",
-    "images": {
-      "png": "./assets/crew/image-douglas-hurley.png",
-      "webp": "./assets/crew/image-douglas-hurley.webp"
-    },
-    "role": "COMMANDER",
-    "bio": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
-  }
 
-  let equipe2 = {
-    "name": "Mark Shuttleworth",
-    "images": {
-      "png": "./assets/crew/image-mark-shuttleworth.png",
-      "webp": "./assets/crew/image-mark-shuttleworth.webp"
-    },
-    "role": "Mission Specialist",
-    "bio": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."
-  }
 
-  let equipe3 = {
-    "name": "Victor Glover",
-    "images": {
-      "png": "./assets/crew/image-victor-glover.png",
-      "webp": "./assets/crew/image-victor-glover.webp"
-    },
-    "role": "Pilot",
-    "bio": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."
-  }
 
-  let equipe4 = {
-    "name": "Anousheh Ansari",
-    "images": {
-      "png": "./assets/crew/image-anousheh-ansari.png",
-      "webp": "./assets/crew/image-anousheh-ansari.webp"
-    },
-    "role": "Flight Engineer",
-    "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
+  function upData(){
+    imgTec.src = equipe1.images.png;
+    let role = equipe1.role;
+     let name = equipe1.name;
+     let bio = equipe1.bio;
+
+     func.innerHTML = role;
+     nome.innerHTML = name;
+     resumo.innerHTML = bio;
+
   }

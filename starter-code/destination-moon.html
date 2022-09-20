@@ -48,16 +48,16 @@
   <title>Turismo espacial</title>
 </head>
 
-<body>
+<body onload="upData()">
   <main>
     <header>
       <img class="logo" src="assets/shared/logo.svg" alt="">
       <div class="linha"></div>
       <ul class="menu">
-        <li><a href="/">00 HOME</a></li>
-        <li><a href="/lua">01 DESTINO</a> </li>
-        <li><a href="/comandante">02 EQUIPE TÉCNICA</a> </li>
-        <li><a href="/tecnologia">03 TECNOLOGIA</a></li>
+        <a href="/"><li><strong>00</strong> HOME</li></a>
+        <a href="/destino"><li><strong>01</strong> DESTINO</li></a>
+        <a href="/equipe-tecnica"><li> <strong>02</strong> EQUIPE TÉCNICA</li></a>
+        <a href="/tecnologia"><li> <strong>03</strong> TECNOLOGIA</li></a>
       </ul>
     </header>
     <article>
@@ -67,39 +67,35 @@
           <h5 class="escolha">ESCOLHA O SEU DESTINO</h5>
         </div>
 
-        <img class="lua" src="./assets/destination/image-moon.png" alt="Lua">
+        <img class="lua" id="destinoImg" src="" alt="Lua">
       </section>
       <section class="info">
         <nav>
           <ul class="destinos">
-            <li><a href="/lua">LUA</a></li>
-            <li><a href="/marte">MARTE</a></li>
-            <li><a href="/europa">EUROPA</a></li>
-            <li><a href="/titan">TITAN</a></li>
+            <li id="lua">LUA</li>
+            <li id="marte">MARTE</li>
+            <li id="europa">EUROPA</li>
+            <li id="titan">TITAN</li>
           </ul>
         </nav>
 
 
-        <h2>LUA</h2>
+        <h2 id="destinoNome"></h2>
 
-        <p>
-          Veja nosso planeta como você nunca viu antes. Uma viagem relaxante perfeita para ajudar
-          recuperar a perspectiva e voltar revigorado. Enquanto estiver lá, conheça um pouco da história
-          visitando os locais de pouso Luna 2 e Apollo 11.
-        </p>
+        <p id="descricao"></p>
         <div class="linha2"></div>
 
         <div class="subtitulo">
           <div class="distancia">
             <h2>Avg. distância</h2>
-            <h1>384,400 KM</h1>
+            <h1 id="distancia"></h1>
           </div>
 
           <div class="tempo">
             <h2>Est. 
               tempo de viagem
               </h2>
-            <h1>3 days</h1>
+            <h1 id="tempoViagem"></h1>
           </div>
 
 
@@ -110,7 +106,7 @@
   </main>
 
 
-
+<script src="destination.js"></script>
 </body>
 
 </html>

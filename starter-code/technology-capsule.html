@@ -54,10 +54,10 @@
     <img class="logo" src="assets/shared/logo.svg" alt="">
     <div class="linha"></div>
     <ul class="menu">
-      <li><a href="/"><strong>00</strong> HOME</a></li>
-      <li><a href="/lua"><strong>01</strong> DESTINO</a> </li>
-      <li><strong>02</strong> EQUIPE TÉCNICA</li>
-      <li><strong>03</strong> TECNOLOGIA</li>
+      <a href="/"><li><strong>00</strong> HOME</li></a>
+      <a href="/destino"><li><strong>01</strong> DESTINO</li></a>
+      <a href="/equipe-tecnica"><li> <strong>02</strong> EQUIPE TÉCNICA</li></a>
+      <a href="/tecnologia"><li> <strong>03</strong> TECNOLOGIA</li></a>
     </ul>
   </header>
   <article>
@@ -74,8 +74,8 @@
       </nav>
       <div class="info-tec">
         <p>THE TERMINOLOGY...</p>
-        <h3>SPACE CAPSULE</h3>
-        <P>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+        <h3 id="tecnologiaNome">SPACE CAPSULE</h3>
+        <P id="descricao">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
           capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
           you'll spend your time during the flight. It includes a space gym, cinema, 
           and plenty of other activities to keep you entertained.</P>
@@ -84,10 +84,9 @@
 
     </section>
     <section class="tecnology">
-      <img src="./assets/technology/image-space-capsule-portrait.jpg" alt="">
+      <img id="tecnoImg" src="./assets/technology/image-space-capsule-portrait.jpg" alt="">
     </section>
   </article>
   </main>
-  
 </body>
 </html>
