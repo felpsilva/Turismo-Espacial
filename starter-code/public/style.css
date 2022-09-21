@@ -29,6 +29,7 @@ header{
     width: 100%;
     height:100px;
     padding-left: 40px;
+    margin-bottom: 70px;
 }
 .menu{
     background-color:rgba(255, 255, 255, 0.144);
@@ -36,6 +37,7 @@ header{
     list-style-type: none;
     padding-right: 100px;
     padding-left: 80px;
+    display: inline-block;
     
 
 }
@@ -43,8 +45,7 @@ header{
     font-family: barlow regular;
     float: left;
     padding-bottom: 38px;
-    margin: 38px;
-    margin-bottom: 0px;
+    margin: 38px 28px 0px 28px
 }
 .menu li:hover{
     /* padding-bottom:36px; */
@@ -195,8 +196,9 @@ a{
   }
 .equipe{
     position: fixed;
-    bottom: 35px;
+    bottom: 60px;
   }
+  
   .borda{
         border-bottom: 2px solid #fff !important; 
   }
