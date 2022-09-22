@@ -8,6 +8,35 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <style>
+    @media(max-width:1100px){
+      .info{
+        width: 33%;
+        margin-left: 12%;
+      }
+
+    }
+
+    @media(max-width:930px){
+      body{
+        background-image: url('./assets/destination/background-destination-tablet.jpg')!important;
+      }
+      .contain-planet {
+          padding-left: 0%!important;
+          width: 50%;
+          height: 50%;
+        }
+      .lua{
+        margin:0 !important;
+        
+      }
+      .info{
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        margin-left:0% !important;
+      }
+    }
+
     body {
       background-image: url('./assets/destination/background-destination-desktop.jpg');
     }
@@ -19,12 +48,14 @@
     }
 
     .lua {
+      width: 100%;
       margin-top: 40px;
       margin-left: 10%;
     }
 
     .apr {
-      margin-bottom: 40px
+      margin-bottom: 40px;
+      margin-left: 5%;
     }
 
     .subtitulo h1 {
@@ -64,13 +95,14 @@
         <a href="/equipe-tecnica"><li> <strong>02</strong> EQUIPE TÉCNICA</li></a>
         <a href="/tecnologia"><li> <strong>03</strong> TECNOLOGIA</li></a>
       </ul>
-    </header>
-    <article>
-      <section class="contain-planet">
-        <div class="apr">
+    </header>        
+    <div class="apr">
           <h5 class="num">01 </h5>
           <h5 class="escolha">ESCOLHA O SEU DESTINO</h5>
         </div>
+    <article>
+      <section class="contain-planet">
+
 
         <img class="lua" id="destinoImg" src="" alt="Lua">
       </section>

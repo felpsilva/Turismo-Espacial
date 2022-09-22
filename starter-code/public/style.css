@@ -35,9 +35,9 @@ header{
     background-color:rgba(255, 255, 255, 0.144);
     float:right;
     list-style-type: none;
-    padding-right: 100px;
-    padding-left: 80px;
-    display: inline-block;
+    padding-right: 10%;
+    padding-left: 8%;
+    display: flex;
     
 
 }
@@ -67,6 +67,9 @@ header{
     position: absolute;
     margin-top: 45px;
     background-color:rgba(255, 255, 255, 0.171);
+}
+ul strong{
+    padding-right:10px;
 }
 
 h1{
@@ -144,7 +147,7 @@ a{
 .info{
     display:flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
     margin-left: 10%;
 }
 .contain-planet{
@@ -206,12 +209,19 @@ a{
     .s1{
         width: 60%;
     }
+    h1{
+        font-size: 140px;
+    }
     .s2{
         width: 40%;
     }
     .menu li{
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .menu{
+        padding-left: 6%;
+        padding-right: 8%;
     }
 }
 @media(max-width:980px){
@@ -224,6 +234,10 @@ a{
     .s2{
         width: 32%;
     }
+    h1{
+        font-size: 130px;
+    }
+
 }
 @media(max-width:930px){
 
@@ -233,24 +247,38 @@ a{
     }
     .s1{
         text-align: center;
-        padding: 0px;
+        padding-left: 0px !important;
     }
     header{
-        margin-bottom: 100px;
+        margin-bottom: 12%;
         margin-top: 0px;
 }
     .menu{
-        padding-right: 35px;
-        padding-left: 35px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    h1{
+        font-size: 140px;
+    }
+
+    p{
+        margin-bottom: 25% !important;
     }
 
 }
+@media(max-width:860px){
+    body{
+        background-size: 108%;
+    }
+}
+
 @media(max-width:770px){
     body{
-        background-image:url("./assets/home/background-home-tablet.jpg") !important;
+        background-size: 100%;
     }
-
-    
+    li strong{
+        display: none;
+    }
 }
 
 .tecnico p{
