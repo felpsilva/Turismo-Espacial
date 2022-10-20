@@ -1,0 +1,241 @@
+h1{
+    font-family: bellefair;
+    letter-spacing: 0px;
+    font-size: 150px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: bellefair;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+h3{
+    font-family: bellefair;
+    font-size: 56px;
+    font-weight: normal;
+}
+
+h4{
+    color:#d0d6f9;
+    font-family: barlow regular;
+    letter-spacing:4.75px;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+h5{
+    color:#d0d6f9;
+    font-family: barlow regular;
+    letter-spacing:2.75px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+p{
+    font-family: barlow regular;
+    color:#d0d6f9;
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+    color:inherit
+}
+header{
+    margin-bottom: 50px;
+}
+body {
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
+    background-size: cover;
+  }
+
+  .escolha {
+    letter-spacing: 0.75px;
+    color: #fff;
+    display: inline-block;
+  }
+
+  .apr {
+    margin-bottom: 40px;
+    margin-left: 10%;
+  }
+
+  .subtitulo h1 {
+    font-size: 28px;
+    font-family: bellefair;
+  }
+
+  .subtitulo h2 {
+    font-size: 14px;
+    font-family: barlow regular;
+    padding-bottom: 5px;
+  }
+
+  .distancia {
+    margin-right: 7%;
+  }
+
+  .tempo {
+    margin-left: 7%;
+  }
+  .destino{
+    border-bottom: 2px solid #fff;   
+  }
+  .destino:hover{
+    border-bottom: 2px solid #fff !important; 
+  }
+.explore{
+    color:#000;
+    cursor:pointer;
+}
+.escolha {
+    letter-spacing: 0.75px;
+    color: #fff;
+    display: inline-block;
+  }
+.num{
+    color:#485159;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul strong{
+    padding-right:10px;
+}
+.destinos li{   
+    float:left;
+    list-style-type: none;
+    margin:20px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    font-family: barlow regular;
+    font-size: 16px;
+
+}
+.destinos li:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #85868b;
+    float:left;
+    cursor: pointer;
+
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 8%;
+}
+.contain-planet{
+    padding-left: 13%;
+}
+.linha2{
+    height: 1px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.288);
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.subtitulo div{
+    display: inline-block;
+}
+.borda{
+    padding-bottom: 18px;
+    border-bottom: 2px solid #fff !important; 
+}
+article{
+    height: 63vh;
+}
+
+
+
+@media(max-width:1370px){
+    .lua{
+        width: 350px;
+        height: 350px;
+        margin-top: 40px !important;
+    }
+    p{
+        line-height: 25px !important;
+    }
+    .linha2{
+        margin-top: 30px !important;
+    }
+    /* .apr{
+        margin-bottom: 0px !important;
+    } */
+}
+
+@media(max-width:1100px){
+    .info{
+    width: 36%;
+    margin-left: 11%;    
+    }
+}
+
+
+@media(max-width:1000px){
+    .info{
+    width: 36%;
+    margin-left: 11%;    
+    }
+}
+
+@media(max-width:930px){
+    body{
+      background-image: url('../assets/destination/background-destination-tablet.jpg')!important;
+      background-size: cover !important;
+    }
+    .contain-planet {
+        padding-left: 0%!important;
+        height: 100%;
+        width: 50%;
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        align-items: end;
+    
+    }
+    article{
+        height: 78%;
+        display: grid !important;
+        justify-items: center;
+        align-items: center;
+    }
+    .lua{
+        margin:0 !important;
+        width: 300px;
+        height: 300px;
+    }
+    .info{
+      align-items: center;
+      flex-direction: column;
+      width: 80%;
+      margin-left:0% !important;
+      text-align: center;
+
+    }
+    header{
+        padding-top:0px !important;
+        margin-bottom: 45px !important;
+    }
+    p{
+        width: 75%;
+    }  
+    .subtitulo{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .menu{
+        padding-right: 6% !important;
+        padding-left: 4% !important;
+    }
+    ul strong{
+        display: none;
+    }
+    h5{
+        font-size: 25px !important;
+    }
+    
+}

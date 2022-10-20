@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* body{
+    color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;;
+} */
+
+article{
+    display:flex;
+    height: 50vh;
+}
+
+section{
+    width: 50%;
+}
+
+header{
+    margin-bottom: 120px;
+}
+/*.menu{
+    background-color:rgba(255, 255, 255, 0.144);
+    float:right;
+    list-style-type: none;
+    padding-right: 10%;
+    padding-left: 8%;
+    display: flex;
+    
+
+}
+@font-face{
+    font-family: barlow regular;
+    src: url('./fonts/BarlowCondensed-Regular.ttf');
+}
+@font-face{
+    font-family: bellefair;
+    src: url('./fonts/Bellefair-Regular.otf');
+}
+ .menu li{
+    font-family: barlow regular;
+    float: left;
+    padding-bottom: 38px;
+    margin: 38px 28px 0px 28px
+}
+.menu li:hover{
+    border-bottom: 2px solid #85868b;    
+
+
+}
+.logo{
+    margin-top:26px;
+    margin-bottom:26px;
+}
+.linha{
+    position:absolute;
+    display: inline-block;
+    width: 33%;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 65px;
+    position: absolute;
+    margin-top: 45px;
+    background-color:rgba(255, 255, 255, 0.171);
+}
+ul strong{
+    padding-right:10px;
+}
+
+h1{
+    font-family: bellefair;
+    letter-spacing: 0px;
+    font-size: 150px;
+    font-weight: normal;
+}
+h2{
+    font-family: bellefair;
+    font-size: 100px;
+    font-weight: normal;
+}
+h3{
+    font-family: bellefair;
+    font-size: 56px;
+    font-weight: normal;
+}
+h4{
+    color:#d0d6f9;
+    font-family: barlow regular;
+    letter-spacing:4.75px;
+    font-size: 32px;
+    font-weight: normal;
+}
+h5{
+    color:#d0d6f9;
+    font-family: barlow regular;
+    letter-spacing:2.75px;
+    font-size: 28px;
+    font-weight: normal;
+}
+p{
+    font-family: barlow regular;
+    color:#d0d6f9;
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+    color:inherit
+} */
+.explore{
+    color:#000;
+    cursor:pointer;
+}
+.escolha {
+    letter-spacing: 0.75px;
+    color: #fff;
+    display: inline-block;
+  }
+.num{
+    color:#485159;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+/* @media(max-width:770px){
+    body{
+        background-size: 100%;
+    }
+    li strong{
+        display: none;
+    }
+} */
+    body{
+        background-image:url('../assets/home/background-home-desktop.jpg');
+        background-size: cover;
+    }
+
+    h1{
+      margin:0px ;
+    }
+    p{
+      margin-bottom: 5px;;
+    }
+    h5{
+      margin-bottom: 15px
+    }
+
+    .s1{
+      padding-left: 7%;
+    }
+    
+    .s2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .xp{
+      color:#000;
+      font-family: bellefair;
+    }
+    .explore {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 100px;
+    border:none;
+    transition:box-shadow 0.5s ease-in-out;
+    
+    }
+    .explore:hover{
+    box-sizing: content-box;
+    border-radius:150px;  
+    box-shadow: 0px 0px 0px 50px rgba(255 255 255 / 29%);
+    
+    }
+
+    .home{
+      border-bottom: 2px solid #fff;   
+    }
+    .home:hover{
+      border-bottom: 2px solid #fff !important; 
+    }
+    
+@media(max-width:1100px){
+    .s2{
+        margin-left: 13%;
+    }
+}
+
+@media(max-width:930px){
+
+    body{
+        background-image:url("../assets/home/background-home-tablet.jpg") !important;
+
+    }
+
+    article{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .s1{
+        text-align: center;
+        padding-left: 0px !important;
+        width: 80vw;
+        scale: 0.9;
+    }
+    .s2{
+        margin-left:0 !important;
+    }
+    
+    header{
+        margin-bottom: 12%;
+        padding-top: 0px !important;
+        margin-bottom: 50px !important;
+    }
+    h1{
+        font-size: 140px;
+    }
+    h5{
+        margin-bottom: 5%;
+
+    }
+    p{
+        margin-bottom: 25% !important;
+        width: 65%;
+        margin: 0 auto;
+    }
+    li strong{
+        display: none;
+    }
+
+}

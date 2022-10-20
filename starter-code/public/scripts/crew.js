@@ -87,8 +87,8 @@ let resumo = document.querySelector('#resumo');
 function selectTec(){
   comandante.addEventListener('click', () => {
     imgTec.src = equipe1.images.png;
-    imgTec.style.width = '475px';
-    imgTec.style.height = '650px';
+    imgTec.style.width = '369px';
+    imgTec.style.height = ' 475px';
     let role = equipe1.role;
     let name = equipe1.name;
     let bio = equipe1.bio;
@@ -100,8 +100,8 @@ function selectTec(){
   });
   especialista.addEventListener('click', () => {
     imgTec.src = equipe2.images.png;
-    imgTec.style.width = '440px';
-    imgTec.style.height = '616px';
+    imgTec.style.width = '342px';
+    imgTec.style.height = '450px';
     let role = equipe2.role;
     let name = equipe2.name;
     let bio = equipe2.bio;
@@ -112,8 +112,8 @@ function selectTec(){
   });
   piloto.addEventListener('click', () => {
     imgTec.src = equipe3.images.png;
-    imgTec.style.width = '495px';
-    imgTec.style.height = '615px';
+    imgTec.style.width = '410px';
+    imgTec.style.height = '430px';
     let role = equipe3.role;
     let name = equipe3.name;
     let bio = equipe3.bio;
@@ -124,7 +124,8 @@ function selectTec(){
   });
   engenheira.addEventListener('click', () => {
     imgTec.src = equipe4.images.png;
-    imgTec.style.width = '500px'
+    imgTec.style.width = '410px';
+    imgTec.style.height = '430px';
     let role = equipe4.role;
     let name = equipe4.name;
     let bio = equipe4.bio;
@@ -134,9 +135,6 @@ function selectTec(){
     resumo.innerHTML = bio;
   });
 }
-
-
-
 
 
 

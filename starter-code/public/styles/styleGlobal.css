@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: barlow regular;
+    src: url('../fonts/BarlowCondensed-Regular.ttf');
+}
+@font-face{
+    font-family: bellefair;
+    src: url('../fonts/Bellefair-Regular.otf');
+}
+main{
+    height: 100vh;
+
+}
+
+body{
+    color:#fff;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+article{
+    width: 100%;
+    display:flex;
+}
+
+section{
+    width: 50%;
+}
+
+header{
+    position: relative;
+    padding-top:40px;
+    width: 100%;
+    padding-left: 40px; 
+}
+.menu{
+    background-color:rgba(255, 255, 255, 0.144);
+    float:right;
+    list-style-type: none;
+    padding-right: 10%;
+    padding-left: 8%;
+    display: flex;
+    
+
+}
+.menu li{
+    font-family: barlow regular;
+    float: left;
+    padding-bottom: 38px;
+    margin: 38px 28px 0px 28px
+}
+.menu li:hover{
+    /* padding-bottom:36px; */
+    border-bottom: 2px solid #85868b;    
+
+
+}
+.logo{
+    margin-top:26px;
+    margin-bottom:26px;
+}
+ul strong{
+    padding-right:10px;
+}
+.num{
+    color:#485159;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+.escolha {
+    letter-spacing: 0.75px;
+    color: #fff;
+    display: inline-block;
+  }
+h1{
+    font-family: bellefair;
+    letter-spacing: 0px;
+    font-size: 150px;
+    font-weight: normal;
+}
+h2{
+    font-family: bellefair;
+    font-size: 100px;
+    font-weight: normal;
+}
+h3{
+    font-family: bellefair;
+    font-size: 56px;
+    font-weight: normal;
+}
+h4{
+    color:#d0d6f9;
+    font-family: barlow regular;
+    letter-spacing: 1px;
+    font-size: 32px;
+    font-weight: normal;
+}
+h5{
+    color:#d0d6f9;
+    font-family: barlow regular;
+    letter-spacing:2.75px;
+    font-size: 28px;
+    font-weight: normal;
+}
+p{
+    font-family: barlow regular;
+    color:#d0d6f9;
+    line-height: 28px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit
+}
+
+/* @media(max-width:930){
+    .menu li{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    .menu{
+        padding-left: 4% !important;
+        padding-right: 6% !important;
+    }
+} */

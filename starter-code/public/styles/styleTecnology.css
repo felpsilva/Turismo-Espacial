@@ -1,0 +1,174 @@
+body{
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
+    background-size: cover;
+  }
+  header{
+    height: 16%;
+    margin-bottom: 10%;
+  }
+  article{
+    height: 65%;
+  }
+
+
+  .apr{
+
+    margin-left: 10%;
+  }
+  .container{
+    position: relative;
+    margin-top: 40px;
+  }
+  .info-tec{
+  width: 70%;
+  display: inline-block;
+  position: absolute;
+  }
+  .info-tec p{
+    margin-top:20px;
+  }
+  .contain{
+    margin-left: 8%;
+    padding-right: 0%;
+    width: 50%;
+  }
+
+  .tecnology{
+    position: relative;
+  }
+  .tecnology img{
+    position: absolute;
+    right: 0;
+  }
+  #b1{
+    color:#000;
+    background-color: #fff;
+  }
+  .tecnologia{
+    border-bottom: 2px solid #fff;   
+  }
+  .tecnologia:hover{
+    border-bottom: 2px solid #fff !important; 
+  }
+  .buttons button{
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+    font-size: 30px;
+    font-family: bellefair;
+    color:#fff;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.5px solid rgba(255, 255, 255, 0.144);
+    margin:15px
+    }
+.buttons{
+    display:inline-block;
+    width: 100px;
+    margin-right: 45px;
+}
+#imgTec{
+    width: 475px;
+    height: 650px;
+}
+.buttons button:hover{
+    border:1px solid #fff;
+    transition:all 300ms ease-in-out;
+    cursor:pointer;
+}
+section h3{
+  font-size: 50px;
+}
+@media (max-width:1025px){
+  .buttons{
+    margin-right: 20px;
+  }
+}
+/* @media(min-width:990px){
+  #tecnoImg{
+    background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
+  }
+} */
+@media (min-width:990px){
+  .tecnology img{
+    width: 415px;
+    height: 427px;
+  }
+}
+@media (max-width:990px){
+  body{
+    background-image: url('../assets/technology/background-technology-tablet.jpg');
+    background-size: cover;
+  }
+  main{
+    height: auto !important;
+  }
+  article{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 80%;
+  }
+  .tecnology{
+    display: flex;
+    position: inherit;
+    width: 100%;
+    height: 66%;
+    justify-content: center;
+  }
+  .tecnology img{
+    position: inherit;
+    margin-top: 0px !important;
+    width: 100%;
+  }
+  .menu{
+
+    padding-right: 6% !important;
+    padding-left: 4% !important;
+  }
+  header{
+    padding-top: 0px !important;
+    height: 15%;
+    margin-bottom: 0;
+
+  }
+  .menu strong{
+    display:none;
+  }
+  .contain{
+    width: 100%;
+    margin-left: 0;
+  }
+  .container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-tec{
+    position: inherit;
+    text-align: center;
+    width: 100%;
+  }
+  .buttons{
+    width: 325px;
+    height: 100px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+  .info-tec h3{
+    font-size: 45px;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+  }
+  .info-tec p{
+    width: 65%;
+    margin: 0 auto;
+  }
+  .apr{
+    margin-bottom: 80px;
+  }
+  .apr h5{
+    font-size: 20px;
+  }
+}

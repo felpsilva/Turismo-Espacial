@@ -29,9 +29,17 @@ let tecnologia3 = {
   let bot2 = document.querySelector('#b2');
   let bot3 = document.querySelector('#b3');
 
-  selectTecnologyStyle()
-  selectTecnology()
+  let tecnologiaNome = document.querySelector('#tecnologiaNome');
+  let tecnologiaDescricao = document.querySelector('#descricao');
+  let tecnologiaImg = document.querySelector('#tecnoImg')
 
+  let controler = 0
+
+  function sizeOfThings(){
+    var telaL = window.innerWidth;
+   
+    selectTecnologyStyle()  
+  
   function selectTecnologyStyle(){
         bot1.addEventListener('click', () => {
             bot2.style.background = "rgba(0,0,0, 00%)"
@@ -59,46 +67,136 @@ let tecnologia3 = {
     })
   }
 
-  let tecnologiaNome = document.querySelector('#tecnologiaNome');
-  let tecnologiaDescricao = document.querySelector('#descricao');
-  let tecnologiaImg = document.querySelector('#tecnoImg')
+
+  
+  // let telaL = window.addEventListener('onresize', ()=>{
+  //   return window.innerWidth;
+  // })
+
+  
+
+  selectTecnology()
+
   function selectTecnology(){
+    
+
+    
     bot1.addEventListener('click', ()=>{
         let nome = tecnologia1.name;
         let descricao = tecnologia1.description;
-        let img = tecnologia1.images.landscape;
-
+        
+        if(telaL < 990){
+          let img = tecnologia1.images.portrait;
+          tecnologiaImg.src = img
+        }else{
+          let img = tecnologia1.images.landscape;
+          tecnologiaImg.src = img
+        }
         tecnologiaNome.innerHTML = nome;
         tecnologiaDescricao.innerHTML = descricao;
-        tecnologiaImg.src = img
 
+        controler = 1
+
+ 
+
+        
     });
     bot2.addEventListener('click', ()=>{
         let nome = tecnologia2.name;
         let descricao = tecnologia2.description;
-        let img = tecnologia2.images.landscape;
-
+        
+        if(telaL< 990){
+          let img = tecnologia2.images.portrait;
+          tecnologiaImg.src = img
+        }else{
+          let img = tecnologia2.images.landscape;
+          tecnologiaImg.src = img
+        }
         tecnologiaNome.innerHTML = nome;
         tecnologiaDescricao.innerHTML = descricao;
-        tecnologiaImg.src = img
+
+        controler = 2
     });
+
     bot3.addEventListener('click', ()=>{
         let nome = tecnologia3.name;
         let descricao = tecnologia3.description;
-        let img = tecnologia3.images.landscape;
 
+        if(telaL < 990){
+          let img = tecnologia3.images.portrait;
+          tecnologiaImg.src = img
+        }else{
+          let img = tecnologia3.images.landscape;
+          tecnologiaImg.src = img
+        }
         tecnologiaNome.innerHTML = nome;
         tecnologiaDescricao.innerHTML = descricao;
-        tecnologiaImg.src = img
+
+        controler = 3
     });
+
+    function resposividade(){
+      if(controler == 0){
+        if(telaL < 990){
+          tecnologiaImg.src = tecnologia1.images.portrait;
+        }else{
+          tecnologiaImg.src = tecnologia1.images.landscape;
+        }
+      }
+      
+      else if(controler == 1){
+        if(telaL < 990){
+          tecnologiaImg.src = tecnologia1.images.portrait;
+        }else{
+          tecnologiaImg.src = tecnologia1.images.landscape;
+        }
+      }
+      
+      else if(controler == 2){
+        if(telaL < 990){
+          tecnologiaImg.src = tecnologia2.images.portrait;
+        }else{
+          tecnologiaImg.src = tecnologia2.images.landscape;
+        }
+      }
+      
+      else if(controler == 3){
+        if(telaL < 990){
+          tecnologiaImg.src = tecnologia3.images.portrait;
+        }else{
+          tecnologiaImg.src = tecnologia3.images.landscape;
+        }
+      }
+    }
+    resposividade()
+
   }
 
+}
+sizeOfThings();
+
+window.addEventListener('resize',function(){
+  sizeOfThings();
+
+})
+
+
+  
+
+  
+  telaLarg = window.innerWidth
   function upData(){
     let nome = tecnologia1.name;
     let descricao = tecnologia1.description;
-    let img = tecnologia1.images.landscape;
 
+    if(telaLarg < 990){
+      let img = tecnologia1.images.portrait;
+      tecnologiaImg.src = img
+    }else{
+      let img = tecnologia1.images.landscape;
+      tecnologiaImg.src = img
+    }
     tecnologiaNome.innerHTML = nome;
     tecnologiaDescricao.innerHTML = descricao;
-    tecnologiaImg.src = img
   }
+

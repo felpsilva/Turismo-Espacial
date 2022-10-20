@@ -13,7 +13,10 @@
 }
 body{
     color:#fff;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;;
 }
 article{
     display:flex;
@@ -129,7 +132,7 @@ a{
 .destinos{
     margin-top:70px
 }
-.destinos li{
+.destinos li{   
     float:left;
     list-style-type: none;
     margin:20px;
@@ -165,7 +168,7 @@ a{
 .subtitulo div{
     display: inline-block;
 }
-.buttons button{
+/* .buttons button{
     width: 75px;
     height: 75px;
     border-radius: 40px;
@@ -189,7 +192,7 @@ a{
     border:1px solid #fff;
     transition:all 300ms ease-in-out;
     cursor:pointer;
-}
+} */
 .crew{
     position:relative;
   }
@@ -276,9 +279,7 @@ a{
     body{
         background-size: 100%;
     }
-    li strong{
-        display: none;
-    }
+
 }
 
 .tecnico p{
