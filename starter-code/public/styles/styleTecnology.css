@@ -3,8 +3,8 @@ body{
     background-size: cover;
   }
   header{
-    height: 16%;
-    margin-bottom: 10%;
+    height: 21%;
+    margin-bottom: 3%;
   }
   article{
     height: 65%;
@@ -128,8 +128,8 @@ section h3{
   }
   header{
     padding-top: 0px !important;
-    height: 15%;
-    margin-bottom: 0;
+    height: 10%;
+    margin-bottom: 7%;
 
   }
   .menu strong{

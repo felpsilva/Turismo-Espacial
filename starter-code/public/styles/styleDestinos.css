@@ -43,7 +43,8 @@ a{
     color:inherit
 }
 header{
-    margin-bottom: 50px;
+    height: 21%;
+    margin-bottom: 3%;
 }
 body {
     background-image: url('../assets/destination/background-destination-desktop.jpg');
@@ -182,7 +183,7 @@ article{
     }
 }
 
-@media(max-width:930px){
+@media (max-width:930px){
     body{
       background-image: url('../assets/destination/background-destination-tablet.jpg')!important;
       background-size: cover !important;
@@ -234,8 +235,11 @@ article{
     ul strong{
         display: none;
     }
-    h5{
-        font-size: 25px !important;
+    .apr h5{
+        font-size: 20px;
+    }
+    main{
+        height: initial !important ;
     }
     
 }
