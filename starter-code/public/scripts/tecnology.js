@@ -168,6 +168,7 @@ let tecnologia3 = {
         }
       }
     }
+    
     resposividade()
 
   }
