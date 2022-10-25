@@ -192,6 +192,9 @@ a{
         float: right;
         margin-top: 30px;
         margin-right: 30px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
 
     }
     #mobile-menu-icon{  
@@ -266,7 +269,6 @@ a{
     }
     
     header{
-        margin-bottom: 12%;
         padding-top: 0px !important;
         margin-bottom: 50px !important;
     }
@@ -291,12 +293,46 @@ a{
     }
 
 }
-@media screen and (max-width:650px){
+@media (max-width:650px){
+    body{
+        background-image: url('../assets/home/background-home-mobile.jpg')!important;
+    }
     .menu{
         display: none;
         flex-direction: column;
     }
     .contain-menu-icon{
         display: block;
+    }
+    .s1{
+        width: 100%;
+    }
+    .s2{
+        height: 100vh;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        margin-bottom: 20% !important;
+        width: 95%;
+    }
+    article{
+        padding-top: 0px;
+        height: 72vh;
+    }
+    .explore{
+        height: 150px;
+        width: 150px;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.200)
     }
 }
