@@ -24,93 +24,6 @@ section{
 header{
     margin-bottom: 120px;
 }
-/*.menu{
-    background-color:rgba(255, 255, 255, 0.144);
-    float:right;
-    list-style-type: none;
-    padding-right: 10%;
-    padding-left: 8%;
-    display: flex;
-    
-
-}
-@font-face{
-    font-family: barlow regular;
-    src: url('./fonts/BarlowCondensed-Regular.ttf');
-}
-@font-face{
-    font-family: bellefair;
-    src: url('./fonts/Bellefair-Regular.otf');
-}
- .menu li{
-    font-family: barlow regular;
-    float: left;
-    padding-bottom: 38px;
-    margin: 38px 28px 0px 28px
-}
-.menu li:hover{
-    border-bottom: 2px solid #85868b;    
-
-
-}
-.logo{
-    margin-top:26px;
-    margin-bottom:26px;
-}
-.linha{
-    position:absolute;
-    display: inline-block;
-    width: 33%;
-    height: 2px;
-    background-color: #fff;
-    margin-left: 65px;
-    position: absolute;
-    margin-top: 45px;
-    background-color:rgba(255, 255, 255, 0.171);
-}
-ul strong{
-    padding-right:10px;
-}
-
-h1{
-    font-family: bellefair;
-    letter-spacing: 0px;
-    font-size: 150px;
-    font-weight: normal;
-}
-h2{
-    font-family: bellefair;
-    font-size: 100px;
-    font-weight: normal;
-}
-h3{
-    font-family: bellefair;
-    font-size: 56px;
-    font-weight: normal;
-}
-h4{
-    color:#d0d6f9;
-    font-family: barlow regular;
-    letter-spacing:4.75px;
-    font-size: 32px;
-    font-weight: normal;
-}
-h5{
-    color:#d0d6f9;
-    font-family: barlow regular;
-    letter-spacing:2.75px;
-    font-size: 28px;
-    font-weight: normal;
-}
-p{
-    font-family: barlow regular;
-    color:#d0d6f9;
-    line-height: 25px;
-}
-a{
-    text-decoration: none;
-    color:inherit
-} */
 .explore{
     color:#000;
     cursor:pointer;
@@ -127,16 +40,6 @@ a{
     margin-right: 10px;
 }
 
-
-
-/* @media(max-width:770px){
-    body{
-        background-size: 100%;
-    }
-    li strong{
-        display: none;
-    }
-} */
     body{
         background-image:url('../assets/home/background-home-desktop.jpg');
         background-size: cover;
@@ -187,6 +90,10 @@ a{
     .home:hover{
       border-bottom: 2px solid #fff !important; 
     }
+
+    .menu{
+        display: flex;
+    }
     .contain-menu-icon{
         display: none;
         float: right;
@@ -195,6 +102,7 @@ a{
         position: absolute;
         right: 0px;
         top: 0px;
+        z-index: 1;
 
     }
     #mobile-menu-icon{  
@@ -300,6 +208,11 @@ a{
     .menu{
         display: none;
         flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.200)
     }
     .contain-menu-icon{
         display: block;
@@ -327,12 +240,5 @@ a{
     .explore{
         height: 150px;
         width: 150px;
-    }
-    .menu{
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 1;
-        background-color: rgba(255, 255, 255, 0.200)
     }
 }
