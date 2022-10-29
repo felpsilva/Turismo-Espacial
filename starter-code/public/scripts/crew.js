@@ -165,8 +165,6 @@ function selectTec(){
 }
 
 
-
-
 }
 sizeOfThings();
 
@@ -185,3 +183,6 @@ function upData(){
      nome.innerHTML = name;
      resumo.innerHTML = bio;
   }
+
+  //criar classes para atualizar a imagem do tecnico de acordo com o tamanho da tela
+  

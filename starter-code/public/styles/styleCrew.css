@@ -247,6 +247,7 @@ label span:nth-child(3){
     flex-direction: column-reverse;
     position: relative;
     align-items: center;
+    justify-content: space-between;
   }
   .crew img {
     height: 220px;
@@ -286,6 +287,10 @@ section {
   flex-direction: column;
   align-items: center;
   padding-top: 10%;
+}
+.radio {
+  width: 15px;
+  height: 15px;
 }
 }
 
