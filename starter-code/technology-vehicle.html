@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
-  
+
   <link rel="stylesheet" href="./styles/styleTecnology.css">
   <link rel="stylesheet" href="./styles/styleGlobal.css">
 
@@ -14,43 +15,62 @@
   </style>
   <title>Turismo espacial | Tecnologia</title>
 </head>
+
 <body onload="upData()" onselectstart="return false">
   <main>
-      <header>
-    <img class="logo" src="assets/shared/logo.svg" alt="">
-    <ul class="menu">
-      <a href="/"><li><strong>00</strong> HOME</li></a>
-      <a href="/destino"><li><strong>01</strong> DESTINO</li></a>
-      <a href="/equipe-tecnica"><li> <strong>02</strong> EQUIPE TÉCNICA</li></a>
-      <a href="/tecnologia"><li class="tecnologia"> <strong>03</strong> TECNOLOGIA</li></a>
-    </ul>
-  </header>
-      <div class="apr">
-        <h5 class="num">03 </h5>
-        <h5 class="escolha"> LANÇAMENTO ESPACIAL 101</h5>
+    <header>
+      <img class="logo" src="assets/shared/logo.svg" alt="">
+      <ul class="menu">
+        <a href="/">
+          <li><strong>00</strong> HOME</li>
+        </a>
+        <a href="/destino">
+          <li><strong>01</strong> DESTINO</li>
+        </a>
+        <a href="/equipe-tecnica">
+          <li> <strong>02</strong> EQUIPE TÉCNICA</li>
+        </a>
+        <a href="/tecnologia">
+          <li class="tecnologia"> <strong>03</strong> TECNOLOGIA</li>
+        </a>
+      </ul>
+      <div class="contain-menu-icon">
+        <input type="checkbox" id="mobile-menu-icon" name="cb" onclick="disparaMenu()">
+        <label for="mobile-menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
       </div>
-  <article>
-    <section class="contain">
-
-      <div class="container">
-      <nav class="buttons">
-        <button id="b1">1</button>
-        <button id="b2">2</button>
-        <button id="b3">3</button>
-      </nav>
-      <div class="info-tec">
-        <p>THE TERMINOLOGY...</p>
-        <h3 id="tecnologiaNome"></h3>
-        <P id="descricao"></P>
-      </div>
+    </header>
+    <div class="apr">
+      <h5 class="num">03 </h5>
+      <h5 class="escolha"> LANÇAMENTO ESPACIAL 101</h5>
     </div>
+    <article>
+      <section class="contain">
 
-    </section>
-    <section class="tecnology">
-      <img id="tecnoImg" src="" alt="">
-    </section>
-  </article>
+        <div class="container">
+          <nav class="buttons">
+            <button id="b1">1</button>
+            <button id="b2">2</button>
+            <button id="b3">3</button>
+          </nav>
+          <div class="info-tec">
+            <p>THE TERMINOLOGY...</p>
+            <h3 id="tecnologiaNome"></h3>
+            <P id="descricao"></P>
+          </div>
+        </div>
+
+      </section>
+      <section class="tecnology">
+        <img id="tecnoImg" src="" alt="">
+      </section>
+    </article>
   </main>
   <script src="./scripts/tecnology.js"></script>
+  <script src="./scripts/menuMobile.js"></script>
 </body>
+
 </html>

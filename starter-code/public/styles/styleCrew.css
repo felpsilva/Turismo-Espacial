@@ -76,6 +76,7 @@ body {
 }
 .crew{
     position:relative;
+    width: 40%;
   }
 .crew img{
     position: fixed;
@@ -152,19 +153,13 @@ label span:nth-child(3){
     }
     section h3 {
       margin-bottom: 5px;
-  }
+    }
   }
   @media(max-width:930px){
     body{
       background-image: url(../assets/crew/background-crew-tablet.jpg);
       background-size: cover;
     }
-    /* article{
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      height: 100%;
-    } */
     article {
           display: grid !important;
           justify-items: center;
@@ -176,21 +171,15 @@ label span:nth-child(3){
     .crew img{
       position: inherit;
     }
-    /* .crew {
-      height: 100%;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    } */
     .crew {
       height: 100%;
       display: grid;
       justify-items: center;
       align-items: end;
-  }
-  .apr h5{
-    font-size: 20px;
-  }
+    }
+    .apr h5{
+      font-size: 20px;
+    }
     .equipe{
       position: inherit;
       padding-bottom: 40px;
@@ -247,64 +236,78 @@ label span:nth-child(3){
     flex-direction: column-reverse;
     position: relative;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
   .crew img {
     height: 220px;
-    width: 185px;
-}
+    width: 195px;
+  }
 
-section {
+  section {
     width: 100%;
-}
-.crew {
+  }
+  .crew {
     height: 100%;
     display: grid;
     justify-items: center;
     align-items: center;
     height: 55%;
     width: 100%;
-}
-#func{
+    justify-content: center;
+  }
+  #func{
     font-size: 15px;
-}
+  }
 
-#nome{
+  #nome{
     font-size: 25px;
-}
-#resumo {
+  }
+  #resumo {
     width: 90%;
-}
-.equipe{
-  position: absolute;
-  display: inline-table;
-  top: -15px;
-  z-index: 1;
-}
-.tecnico {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10%;
-}
-.radio {
-  width: 15px;
-  height: 15px;
-}
+    line-height: 25px !important;
+  }
+  .equipe{
+    position: absolute;
+    display: inline-table;
+    top: -15px;
+    z-index: 1;
+  }
+  .tecnico {
+    position: relative;
+    display: flex;
+    padding-top: 10%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .radio {
+    width: 15px;
+    height: 15px;
+  }
+  .apr{
+    margin-bottom: 0; 
+    margin-left: 0;
+    text-align: center;
+  }
+  .containImg{
+    border-bottom: solid 1px rgba(255, 255, 255, 0.144);
+    width: 48vh;
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
 
 
-@media(min-height:1030px){
-  article{
-    height: 78.70%;
+  @media(min-height:1030px){
+    article{
+      height: 78.70%;
 
   }
 }
 
-@media(min-height:1050px){
-  article{
-    height:79.50%;
-  }
+  @media(min-height:1050px){
+    article{
+      height:79.50%;
+    }
 }
