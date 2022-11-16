@@ -144,6 +144,19 @@ label span:nth-child(3){
     top: 10px;
 }
 
+@keyframes slideGrid{
+  0%   { margin: 0px 0px 0px 50px}
+  100% { margin:0px }
+}
+@keyframes opacidadeOn{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes opacidadeOff{
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
   @media (min-width:930px) and (max-width:1250px){
     .equipe{
       bottom: 0px;
@@ -159,6 +172,11 @@ label span:nth-child(3){
     body{
       background-image: url(../assets/crew/background-crew-tablet.jpg);
       background-size: cover;
+    }
+    main{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     article {
           display: grid !important;
@@ -195,7 +213,7 @@ label span:nth-child(3){
     }
     header{
       padding-top:0px !important;
-      height: 10%;
+      height: 100px;
       margin-bottom: 7%;
     }
     .menu li{
@@ -225,7 +243,7 @@ label span:nth-child(3){
     top: 0;
     right: 0;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.200)
+    background-color: rgba(75,75,75, 0.600) !important;
   }
   .contain-menu-icon{
     display: block;
@@ -295,19 +313,4 @@ label span:nth-child(3){
     justify-content: center;
   }
 
-}
-
-
-
-  @media(min-height:1030px){
-    article{
-      height: 78.70%;
-
-  }
-}
-
-  @media(min-height:1050px){
-    article{
-      height:79.50%;
-    }
 }

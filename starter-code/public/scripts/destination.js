@@ -1,8 +1,8 @@
   let destino1 = {
     "name": "LUA",
     "images": {
-      "png": "../assets/destination/image-moon.png",
-      "webp": "../assets/destination/image-moon.webp"
+      "png": "./assets/destination/image-moon.png",
+      "webp": "./assets/destination/image-moon.webp"
     },
     "description": "Veja nosso planeta como você nunca viu antes. Uma viagem relaxante perfeita para ajudar recuperar a perspectiva e voltar revigorado. Enquanto estiver lá, conheça um pouco da história visitando os locais de pouso Luna 2 e Apollo 11.",
     "distance": "384,400 KM",
@@ -12,10 +12,10 @@
     let destino2 = {
     "name": "MARTE",
     "images": {
-      "png": "../assets/destination/image-mars.png",
-      "webp": "../assets/destination/image-mars.webp"
+      "png": "./assets/destination/image-mars.png",
+      "webp": "./assets/destination/image-mars.webp"
     },
-    "description": "Não se esqueça de levar suas botas de caminhada. Você precisará deles para enfrentar o Monte Olimpo, a montanha planetária mais alta do nosso sistema solar. São duas vezes e meia do tamanho do Everest!",
+    "description": "Não se esqueça de levar suas botas de caminhada. Você precisará deles para enfrentar o Monte Olimpo, a montanha planetária mais alta do nosso sistema solar. São duas vezes e meia o tamanho do Everest!",
     "distance": "225 MIL. KM",
     "travel": "9 MÊSES"
   }
@@ -25,10 +25,10 @@
   let destino3 = {
     "name": "EUROPA",
     "images": {
-      "png": "../assets/destination/image-europa.png",
-      "webp": "../assets/destination/image-europa.webp"
+      "png": "./assets/destination/image-europa.png",
+      "webp": "./assets/destination/image-europa.webp"
     },
-    "description": "A menor das quatro luas galileanas que orbitam Júpiter, Europa é uma o sonho do amante de inverno. Com uma superfície gelada, é perfeito para um pouco de patinação no gelo, curling, hóquei ou simples relaxamento em seu confortável cabana invernal.",
+    "description": "A menor das quatro luas galileanas que orbitam Júpiter, Europa é o sonho do amante de inverno. Com uma superfície gelada, é perfeito para um pouco de patinação no gelo, curling, hóquei ou simples relaxamento em sua confortável cabana invernal.",
     "distance": "628 MIL. KM",
     "travel": "3 ANOS"
   }
@@ -36,8 +36,8 @@
   let destino4 = {
     "name": "TITAN",
     "images": {
-      "png": "../assets/destination/image-titan.png",
-      "webp": "../assets/destination/image-titan.webp"
+      "png": "./assets/destination/image-titan.png",
+      "webp": "./assets/destination/image-titan.webp"
     },
     "description": "A única lua conhecida por ter uma atmosfera densa além da Terra, Titã é um lar longe de casa (apenas algumas centenas de graus mais frio!). Como um bônus, você obtém vistas impressionantes dos anéis de Saturno.",
     "distance": "1.6 BI. KM",
@@ -59,7 +59,7 @@ let destinoNome = document.querySelector('#destinoNome')
 let descricao = document.querySelector('#descricao');
 let distancia = document.querySelector('#distancia');
 let tempoViagem = document.querySelector('#tempoViagem')
-
+let containP = document.querySelector('.contain-planet')
 
 
 function selectTecStyle(){
@@ -99,7 +99,9 @@ function selectTecStyle(){
 function selectTec(){
     lua.addEventListener('click', () => {
         imgDestino.src = destino1.images.png;
-    
+        containP.style.animation =''
+        setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
+  
         let name = destino1.name;
         let description = destino1.description;
         let distance = destino1.distance;
@@ -113,6 +115,8 @@ function selectTec(){
     });
     marte.addEventListener('click', () => {
         imgDestino.src = destino2.images.png;
+        containP.style.animation =''
+        setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
     
         let name = destino2.name;
         let description = destino2.description;
@@ -127,6 +131,8 @@ function selectTec(){
     });
     europa.addEventListener('click', () => {
         imgDestino.src = destino3.images.png;
+        containP.style.animation =''
+        setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
     
         let name = destino3.name;
         let description = destino3.description;
@@ -141,7 +147,8 @@ function selectTec(){
     });
     titan.addEventListener('click', () => {
         imgDestino.src = destino4.images.png;
-    
+        containP.style.animation =''
+        setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
         let name = destino4.name;
         let description = destino4.description;
         let distance = destino4.distance;
@@ -158,7 +165,8 @@ function selectTec(){
 
   function upData(){
     imgDestino.src = destino1.images.png;
-    
+    containP.style.animation =''
+    setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
     let name = destino1.name;
     let description = destino1.description;
     let distance = destino1.distance;

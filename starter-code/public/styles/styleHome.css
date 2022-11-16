@@ -145,6 +145,15 @@ header{
         transform: rotate(45deg);
         top: 10px;
     }
+    @keyframes opacidadeOn{
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    @keyframes opacidadeOff{
+        0% {opacity: 1;}
+        100% {opacity: 0;}
+    }
+
 
     
     
@@ -212,7 +221,7 @@ header{
         top: 0;
         right: 0;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.200)
+        background-color: rgba(75,75,75, 0.600) !important;
     }
     .contain-menu-icon{
         display: block;

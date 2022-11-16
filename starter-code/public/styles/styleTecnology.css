@@ -20,12 +20,13 @@ body{
     margin-top: 40px;
   }
   .info-tec{
-  width: 70%;
+  width: 80%;
   display: inline-block;
   position: absolute;
   }
   .info-tec p{
     margin-top:20px;
+    width: 90%;
   }
   .contain{
     margin-left: 8%;
@@ -137,11 +138,20 @@ section h3{
     margin-right: 20px;
   }
 }
-/* @media(min-width:990px){
-  #tecnoImg{
-    background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
-  }
-} */
+
+@keyframes slideGrid{
+  0%   { margin: 0px 50px 0px 0px}
+  100% { margin:0px }
+}
+@keyframes opacidadeOn{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes opacidadeOff{
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
 @media (min-width:990px){
   .tecnology img{
     width: 415px;
@@ -187,6 +197,9 @@ section h3{
   }
   .menu strong{
     display:none;
+  }
+  #descricao{
+        margin-bottom: 20px;
   }
   .contain{
     width: 100%;
@@ -236,7 +249,7 @@ section h3{
     top: 0;
     right: 0;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.200)
+    background-color: rgba(75,75,75, 0.600) !important;
 }
   .contain-menu-icon{
     display:block;

@@ -15,7 +15,9 @@ main{
     height: 100vh;
 
 }
-
+nav{
+    display: contents;
+}
 body{
     color:#fff;
     background-repeat: no-repeat;
