@@ -1,6 +1,6 @@
-# Frontend Mentor - Space tourism website solution
+# Frontend Mentor - Solução de site Turismo Espacial
 
-This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta é uma solução para o [desafio do site de turismo espacial no Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Table of contents
 
@@ -16,55 +16,43 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
+## Visão geral
 
-### The challenge
+### O desafio
 
-Users should be able to:
+Os usuários devem ser capazes de:
 
-- View the optimal layout for each of the website's pages depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each page and be able to toggle between the tabs to see new information
+- Veja o layout ideal para cada uma das páginas do site, dependendo do tamanho da tela do dispositivo
+- Veja os estados de foco para todos os elementos interativos na página
+- Visualize cada página e seja capaz de alternar entre as guias para ver novas informações
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![image](https://user-images.githubusercontent.com/110566575/202327099-8f8f8d75-558f-400a-861e-4b4b0f50c238.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- URL da Solção: [[Add solution URL here](https://felpsilva.github.io/Turismo-Espacial--View--/)]
 
-## My process
 
-### Built with
+### Construído com
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Marcação HTML5 Semântica
+- Javascript
+- Propriedades CSS
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Nodejs](https://expressjs.com/pt-br/) - NodeJs framework
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
+### O que eu aprendi
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Meu principal ponto de aprendizagem se deu pela utilização do framework express do node js,
+é uma ferramenta que possui como principal objetivo a facilitação no desenvolvimento de rotas
+(URL) ou camninhos, utilizando um protocolo de solicitação HTTP específico (GET, POST, etc...).
 
-To see how you can add code snippets, see below:
+
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
