@@ -2,7 +2,7 @@
 
 Esta é uma solução para o [desafio do site de turismo espacial no Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
-## Table of contents
+## Índice
 
 - [Visão geral](#visão-geral)
   - [O desafio](#o-desafio)
@@ -10,7 +10,7 @@ Esta é uma solução para o [desafio do site de turismo espacial no Frontend Me
   - [Links](#links)
   - [Construído com](construído-com)
   - [O que eu aprendi](o-que-eu-qprendi)
-- [Author](#author)
+  - [Author](#author)
 
 
 ## Visão geral
@@ -50,7 +50,7 @@ Meu principal ponto de aprendizagem se deu pela utilização do framework expres
 
 
 
-## Author
+### Author
 
 - Linkedin - [Felipe Pereira](https://www.linkedin.com/in/felipe-pereira-20b70a205/)
 - Frontend Mentor - [@Felipe Silva](https://www.frontendmentor.io/profile/felpsilva)
