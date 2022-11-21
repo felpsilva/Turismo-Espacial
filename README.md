@@ -13,8 +13,8 @@ Esta é uma solução para o [desafio do site de turismo espacial no Frontend Me
     - [tablet](#tablet)
     - [mobile](#mobile)
   - [Links](#links)
-  - [Construído com](construído-com)
-  - [O que eu aprendi](o-que-eu-qprendi)
+  - [Construído com](#construído-com)
+  - [Aprendizagem](#aprendizagem)
   - [Author](#author)
 
 ## Visão geral
@@ -71,7 +71,7 @@ apenas para que seja hospedado.*
 - [Nodejs](https://expressjs.com/pt-br/) - NodeJs framework
 
 
-### O que eu aprendi
+### Aprendizagem
 
 Meu principal ponto de aprendizagem se deu pela utilização do framework express do node js,
 é uma ferramenta que possui como principal objetivo a facilitação no desenvolvimento de rotas
