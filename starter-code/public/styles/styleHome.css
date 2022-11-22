@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-/* body{
-    color:#fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;;
-} */
 
 article{
     display:flex;
@@ -208,6 +201,10 @@ header{
         padding-right: 6% !important;
         padding-left: 4% !important;
     }
+    .menu li{
+        margin: 38px 20px 0px 20px !important;
+      }
+    
 
 }
 @media (max-width:650px){
@@ -221,7 +218,6 @@ header{
         top: 0;
         right: 0;
         z-index: 1;
-        background-color: rgba(75,75,75, 0.600) !important;
     }
     .contain-menu-icon{
         display: block;

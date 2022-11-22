@@ -40,13 +40,12 @@ header{
     padding-left: 40px; 
 }
 .menu{
-    background-color:rgba(255, 255, 255, 0.144);
+    background:#6b6b6b29;
+    backdrop-filter: blur(25px);
     float:right;
     list-style-type: none;
     padding-right: 10%;
     padding-left: 8%;
-
-    
 
 }
 .menu li{
