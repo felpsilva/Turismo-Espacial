@@ -1,131 +1,148 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-@font-face{
+
+@font-face {
     font-family: barlow regular;
     src: url('../fonts/BarlowCondensed-Regular.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: bellefair;
     src: url('../fonts/Bellefair-Regular.otf');
 }
-main{
+
+main {
     height: 100vh;
 
 }
-nav{
-    display: contents;
-}
-body{
-    color:#fff;
+
+body {
+    color: #fff;
     background-repeat: no-repeat;
     height: 100vh;
 
 }
-article{
-    width: 100%;
-    display:flex;
+
+nav {
+    display: contents;
 }
 
-section{
+article {
+    width: 100%;
+    display: flex;
+}
+
+section {
     width: 50%;
 }
 
-header{
+header {
     position: relative;
-    padding-top:40px;
+    padding-top: 40px;
     width: 100%;
-    padding-left: 40px; 
+    padding-left: 40px;
 }
-.menu{
-    background:#6b6b6b29;
+
+.menu {
+    background: #6b6b6b29;
     backdrop-filter: blur(25px);
-    float:right;
+    float: right;
     list-style-type: none;
-    padding-right: 10%;
-    padding-left: 8%;
+    padding-right: 8%;
+    padding-left: 6%;
 
 }
-.menu li{
+
+.menu li {
     font-family: barlow regular;
     float: left;
     padding-bottom: 38px;
-    margin: 38px 28px 0px 28px
+    margin: 38px 25px 0px 25px;
+    letter-spacing: 2.27px;
 }
-.menu li:hover{
-    /* padding-bottom:36px; */
-    border-bottom: 2px solid #85868b;    
 
+.menu li:hover {
+    border-bottom: 2px solid #85868b;
 
 }
-.logo{
-    margin-top:26px;
-    margin-bottom:26px;
+
+.logo {
+    margin-right: 50px;
 }
-ul strong{
-    padding-right:10px;
+
+ul strong {
+    padding-right: 10px;
 }
-.num{
-    color:#485159;
+
+.num {
+    color: #485159;
     font-weight: bold;
     display: inline-block;
     margin-right: 10px;
 }
+
 .escolha {
     letter-spacing: 0.75px;
     color: #fff;
     display: inline-block;
-  }
-h1{
-    font-family: bellefair;
-    letter-spacing: 0px;
-    font-size: 150px;
+}
+
+.menu li a {
+    padding: 38px 0px
+}
+
+.menu li a :active {
+    background: #6b6b6b29;
+}
+
+h1 {
+    color: #d0d6f9;
+    font-family: barlow regular;
+    letter-spacing: 2.75px;
+    font-size: 28px;
     font-weight: normal;
 }
-h2{
+
+h2 {
     font-family: bellefair;
+    letter-spacing: 0px;
     font-size: 100px;
     font-weight: normal;
 }
-h3{
-    font-family: bellefair;
-    font-size: 56px;
-    font-weight: normal;
-}
-h4{
-    color:#d0d6f9;
+
+h3 {
     font-family: barlow regular;
+    font-size: 12px;
+    font-weight: normal;
+    color: #d0d6f9;
+}
+
+h4 {
+    color: #fff;
+    font-family: bellefair;
     letter-spacing: 1px;
     font-size: 32px;
     font-weight: normal;
 }
-h5{
-    color:#d0d6f9;
+
+h5 {
+    color: #d0d6f9;
     font-family: barlow regular;
-    letter-spacing:2.75px;
+    letter-spacing: 2.75px;
     font-size: 28px;
     font-weight: normal;
 }
-p{
+
+p {
     font-family: barlow regular;
-    color:#d0d6f9;
+    color: #d0d6f9;
     line-height: 28px;
 }
 
-a{
+a {
     text-decoration: none;
-    color:inherit
+    color: inherit
 }
-
-/* @media(max-width:930){
-    .menu li{
-        margin-left: 20px !important;
-        margin-right: 20px !important;
-    }
-    .menu{
-        padding-left: 4% !important;
-        padding-right: 6% !important;
-    }
-} */

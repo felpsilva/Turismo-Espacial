@@ -1,263 +1,381 @@
-body{
-    background-image: url('../assets/technology/background-technology-desktop.jpg');
-    background-size: cover;
-  }
-  header{
-    height: 21%;
-    margin-bottom: 3%;
-  }
-  article{
-    height: 65%;
-  }
+body {
+  background-image: url('../assets/technology/background-technology-desktop.jpg');
+  background-size: cover;
+}
+
+header {
+  height: 21%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+article {
+  height: 65%;
+}
 
 
-  .apr{
+.apr {
 
-    margin-left: 10%;
-  }
-  .container{
-    position: relative;
-    margin-top: 40px;
-  }
-  .info-tec{
+  margin-left: 10%;
+}
+header::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background: #767676a6;
+  order: 2;
+  margin-right: -4%;
+
+}
+
+.home{
+  width: 74px;
+}
+.destino{
+    width: 94px;
+}
+.crewMenu{
+    width: 155px;
+}
+.tecnologia{
+    width: 125px;
+}
+
+.container {
+  position: relative;
+  margin-top: 40px;
+}
+
+.info-tec {
   width: 80%;
   display: inline-block;
   position: absolute;
-  }
-  .info-tec p{
-    margin-top:20px;
-    width: 90%;
-  }
-  .contain{
-    margin-left: 8%;
-    padding-right: 0%;
-    width: 50%;
-  }
+}
 
-  .tecnology{
-    position: relative;
-  }
-  .tecnology img{
-    position: absolute;
-    right: 0;
-  }
-  .menu{
-    display: flex;
+.info-tec p {
+  margin-top: 20px;
+  width: 75%;
 }
-.contain-menu-icon{
-    display: none;
-    float: right;
-    margin-top: 30px;
-    margin-right: 30px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    z-index: 1;
+
+.contain {
+  margin-left: 8%;
+  padding-right: 0%;
+  width: 60%;
+}
+
+.tecnology {
+  position: relative;
+  width: 40%;
+}
+
+.tecnology img {
+  position: absolute;
+  right: 0;
+}
+
+.menu {
+  display: flex;
+  order: 3
+}
+
+.contain-menu-icon {
+  display: none;
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
 
 }
-#mobile-menu-icon{  
-    opacity: 0;
-    position: absolute;
+
+#mobile-menu-icon {
+  opacity: 0;
+  position: absolute;
 }
-label{
-    cursor: pointer;
-    position: relative;
-    display: block;
-    width: 30px;
-    height: 25px;
+
+label {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 25px;
 }
-label span{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 5px;
-    border-radius: 1px; 
-    background-color: #fff;
-    transition: 0.25s ease-in-out;
+
+label span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 5px;
+  border-radius: 1px;
+  background-color: #fff;
+  transition: 0.25s ease-in-out;
 }
-label span:nth-child(1){
-    top:0
+
+label span:nth-child(1) {
+  top: 0
 }
-label span:nth-child(2){
-    top:10px
-}  
-label span:nth-child(3){
-    top:20px
+
+label span:nth-child(2) {
+  top: 10px
 }
-#mobile-menu-icon:checked + label span:nth-child(1){
-    transform:rotate(-45deg);
-    top:10px
+
+label span:nth-child(3) {
+  top: 20px
 }
-#mobile-menu-icon:checked + label span:nth-child(2){
-    display: none;
-} 
-#mobile-menu-icon:checked + label span:nth-child(3){
-    transform: rotate(45deg);
-    top: 10px;
+
+#mobile-menu-icon:checked+label span:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 10px
 }
-  #b1{
-    color:#000;
-    background-color: #fff;
-  }
-  .tecnologia{
-    border-bottom: 2px solid #fff;   
-  }
-  .tecnologia:hover{
-    border-bottom: 2px solid #fff !important; 
-  }
-  .buttons button{
-    width: 75px;
-    height: 75px;
-    border-radius: 40px;
-    font-size: 30px;
-    font-family: bellefair;
-    color:#fff;
-    background-color: rgba(255, 255, 255, 0);
-    border: 0.5px solid rgba(255, 255, 255, 0.144);
-    margin:15px
-    }
-.buttons{
-    display:inline-block;
-    width: 100px;
-    margin-right: 45px;
+
+#mobile-menu-icon:checked+label span:nth-child(2) {
+  display: none;
 }
-#imgTec{
-    width: 475px;
-    height: 650px;
+
+#mobile-menu-icon:checked+label span:nth-child(3) {
+  transform: rotate(45deg);
+  top: 10px;
 }
-.buttons button:hover{
-    border:1px solid #fff;
-    transition:all 300ms ease-in-out;
-    cursor:pointer;
+
+#b1 {
+  color: #000;
+  background-color: #fff;
 }
-section h3{
-  font-size: 50px;
+
+.tecnologia {
+  border-bottom: 2px solid #fff;
 }
-@media (max-width:1025px){
-  .buttons{
+
+.tecnologia:hover {
+  border-bottom: 2px solid #fff !important;
+}
+
+.buttons button {
+  width: 75px;
+  height: 75px;
+  border-radius: 40px;
+  font-size: 30px;
+  font-family: bellefair;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.5px solid rgba(255, 255, 255, 0.144);
+  margin: 15px
+}
+
+.buttons {
+  display: inline-block;
+  width: 100px;
+  margin-right: 45px;
+}
+
+#imgTec {
+  width: 475px;
+  height: 650px;
+}
+
+.buttons button:hover {
+  border: 1px solid #fff;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.info-tec h3 {
+  font-family: bellefair;
+  font-size: 56px;
+  width: 100%;
+  padding: 15px 0px 0px 0px;
+  color: #fff
+}
+
+@media (max-width:1025px) {
+  .buttons {
     margin-right: 20px;
   }
 }
 
-@keyframes slideGrid{
-  0%   { margin: 0px 50px 0px 0px}
-  100% { margin:0px }
-}
-@keyframes opacidadeOn{
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-@keyframes opacidadeOff{
-  0% {opacity: 1;}
-  100% {opacity: 0;}
+@keyframes slideGrid {
+  0% {
+    margin: 0px 50px 0px 0px
+  }
+
+  100% {
+    margin: 0px
+  }
 }
 
-@media (min-width:990px){
-  .tecnology img{
+@keyframes opacidadeOn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacidadeOff {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (min-width:990px) {
+  .tecnology img {
     width: 415px;
     height: 427px;
   }
 }
-@media (max-width:990px){
-  body{
+
+@media (max-width:990px) {
+  body {
     background-image: url('../assets/technology/background-technology-tablet.jpg');
     background-size: cover;
   }
-  main{
+
+  main {
     height: auto !important;
   }
-  article{
+
+  article {
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
     height: 80%;
   }
-  .tecnology{
+
+  .tecnology {
     display: flex;
     position: inherit;
     width: 100%;
     height: 66%;
     justify-content: center;
   }
-  .tecnology img{
+  header::after{
+    display: none;
+  }
+  .home{
+    width: 57px;
+  }
+  .destino{
+      width: 70px;
+  }
+  .crewMenu{
+    width: 122px;
+  }
+  .tecnologia{
+      width: 95px;
+  }
+
+  .tecnology img {
     position: inherit;
     margin-top: 0px !important;
     width: 100%;
   }
-  .menu{
+
+  .menu {
     padding-right: 6% !important;
     padding-left: 4% !important;
-
   }
   .menu li{
     margin: 38px 20px 0px 20px !important;
   }
 
-  header{
+  header {
     padding-top: 0px !important;
     height: 10%;
     margin-bottom: 7%;
 
   }
-  .menu strong{
-    display:none;
+
+  .menu strong {
+    display: none;
   }
-  #descricao{
-        margin-bottom: 20px;
+
+  #descricao {
+    margin-bottom: 20px;
   }
-  .contain{
+
+  .contain {
     width: 100%;
     margin-left: 0;
   }
-  .container{
+
+  .container {
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
   }
-  .info-tec{
+
+  .info-tec {
     position: inherit;
     text-align: center;
     width: 100%;
   }
-  .buttons{
+
+  .buttons {
     width: 325px;
     height: 100px;
     margin-right: 0px;
     margin-bottom: 25px;
   }
-  .info-tec h3{
+
+  .info-tec h3 {
     font-size: 45px;
     width: 100%;
     padding: 15px 0px 15px 0px;
   }
-  .info-tec p{
+
+  .info-tec p {
     width: 65%;
     margin: 0 auto;
   }
-  .apr{
+
+  .apr {
     margin-bottom: 80px;
   }
-  .apr h5{
+
+  .apr h5 {
     font-size: 20px;
   }
 }
-@media (max-width:650px){
-  body{
+
+@media (max-width:650px) {
+  body {
     background-image: url('../assets/technology/background-technology-mobile.jpg');
   }
-  .menu{
+
+  .menu {
     display: none;
     flex-direction: column;
     position: absolute;
     top: 0;
     right: 0;
     z-index: 1;
+
 }
   .contain-menu-icon{
     display:block;
   }
+
+  .contain-menu-icon {
+    display: block;
+  }
+  .logo{
+    margin: 26px 0;
+}
+
   .buttons {
     width: 200px;
     height: 70px;
@@ -265,26 +383,35 @@ section h3{
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
-}
-  .buttons button{
+  }
+
+  .buttons button {
     width: 45px;
     height: 45px;
-    margin:10px;
+    margin: 10px;
     font-size: 20px;
   }
+
   .info-tec h3 {
     font-size: 25px;
     padding: 10px 0px 15px 0px;
   }
+
+  .apr h1 {
+    font-size: 20px;
+  }
+
   .apr {
     margin-bottom: 40px;
     text-align: center;
   }
+
   .info-tec p {
     width: 85%;
     line-height: 25px !important;
   }
-  header{
+
+  header {
     margin-bottom: 0%;
   }
 
