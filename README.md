@@ -32,8 +32,8 @@ Esta é uma solução para o [desafio do site de turismo espacial no Frontend Me
 
 Os usuários devem ser capazes de:
 
-- Veja o layout ideal para cada uma das páginas do site, dependendo do tamanho da tela do dispositivo
-- Veja os estados de foco para todos os elementos interativos na página
+- Ver o layout ideal para cada uma das páginas do site, dependendo do tamanho da tela do dispositivo
+- Ver os estados de foco para todos os elementos interativos na página
 - Visualize cada página e seja capaz de alternar entre as guias para ver novas informações
 
 ## Visualização
