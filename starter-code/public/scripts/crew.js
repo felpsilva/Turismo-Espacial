@@ -91,6 +91,7 @@ function sizeOfThings() {
 	function selectTec() {
 		comandante.addEventListener('click', () => {
 			imgTec.src = equipe1.images.png;
+			imgTec.alt = 'DOUGLAS HURLEY';
 			if (telaL > 650) {
 				imgTec.style.width = '336px';
 				imgTec.style.height = '420px';
@@ -112,6 +113,7 @@ function sizeOfThings() {
 		});
 		especialista.addEventListener('click', () => {
 			imgTec.src = equipe2.images.png;
+			imgTec.alt = 'MARK SHUTTLEWORTH';
 			if (telaL > 650) {
 				imgTec.style.width = '295px';
 				imgTec.style.height = '420px';
@@ -132,6 +134,7 @@ function sizeOfThings() {
 		});
 		piloto.addEventListener('click', () => {
 			imgTec.src = equipe3.images.png;
+			imgTec.alt = 'VICTOR GLOVER';
 			if (telaL > 650) {
 				imgTec.style.width = '345px';
 				imgTec.style.height = '375px';
@@ -152,6 +155,7 @@ function sizeOfThings() {
 		});
 		engenheira.addEventListener('click', () => {
 			imgTec.src = equipe4.images.png;
+			imgTec.alt = 'ANOUSHEH ANSARI';
 			if (telaL > 650) {
 				imgTec.style.width = '365px';
 				imgTec.style.height = '375px';

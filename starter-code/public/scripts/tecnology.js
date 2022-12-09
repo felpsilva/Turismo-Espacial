@@ -84,6 +84,7 @@ function sizeOfThings() {
       } else {
         tecnologiaImg.src = tecnologia1.images.landscape;
       }
+      tecnologiaImg.alt = 'VEÍCULO DE LANÇAMENTO'
       controler = 1
     });
 
@@ -97,6 +98,7 @@ function sizeOfThings() {
       } else {
         tecnologiaImg.src = tecnologia2.images.landscape;
       }
+      tecnologiaImg.alt = 'ESPAÇOPORTO'
       controler = 2
     });
 
@@ -110,6 +112,7 @@ function sizeOfThings() {
       } else {
         tecnologiaImg.src = tecnologia3.images.landscape;
       }
+      tecnologiaImg.alt = 'CÁPSULA ESPACIAL'
       controler = 3
     });
 

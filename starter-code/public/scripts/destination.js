@@ -99,6 +99,7 @@ function selectTecStyle() {
 function selectTec() {
   lua.addEventListener('click', () => {
     imgDestino.src = destino1.images.png;
+    imgDestino.alt ='Lua'
     containP.style.animation = ''
     setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)', 5)
 
@@ -115,6 +116,7 @@ function selectTec() {
   });
   marte.addEventListener('click', () => {
     imgDestino.src = destino2.images.png;
+    imgDestino.alt ='Marte'
     containP.style.animation = ''
     setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)', 5)
 
@@ -131,6 +133,7 @@ function selectTec() {
   });
   europa.addEventListener('click', () => {
     imgDestino.src = destino3.images.png;
+    imgDestino.alt ='Europa'
     containP.style.animation = ''
     setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)', 5)
 
@@ -147,6 +150,7 @@ function selectTec() {
   });
   titan.addEventListener('click', () => {
     imgDestino.src = destino4.images.png;
+    imgDestino.alt ='Titan'
     containP.style.animation = ''
     setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)', 5)
     let name = destino4.name;
