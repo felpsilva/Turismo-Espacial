@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,57 +11,59 @@
 
   <title>Turismo espacial | Equipe</title>
 </head>
+
 <body onload="upData()" onselectstart="return false">
   <main>
     <header>
       <img class="logo" src="assets/shared/logo.svg" alt="">
-    <ul class="menu">
-      <li class="home"><a href="/"><strong>00</strong> HOME </a></li>
-      <li class="destino"> <a href="/destinos"><strong>01</strong> DESTINO</a></li>
-      <li class="crewMenu"> <a href="/equipeTecnica"> <strong>02</strong> EQUIPE TÉCNICA</a></li>
-      <li class="tecnologia"><a href="/tecnologias"> <strong>03</strong> TECNOLOGIA</a></li>
-    </ul> 
-    <div class="contain-menu-icon">
-      <input type="checkbox"  id="mobile-menu-icon" name="cb" onclick="disparaMenu()">
-      <label for="mobile-menu-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div> 
-  </header>
-<div class="apr">
-  <h1 class="num">02 </h1>
-  <h1 class="escolha"> CONHEÇA SUA EQUIPE</h1>
-</div>
-  <article>
-    <section class="tecnico">
-
-    <h2 id="func"></h2>
-
-    <h3 id="nome"></h3>
-
-    <p id="resumo"></p>
-
-      <div class="equipe">
-        <button class="radio" id="comandante"></button>
-        <button class="radio" id="especialista"></button>
-        <button class="radio" id="piloto"></button>
-        <button class="radio" id="engenheira"></button>
-
+      <ul class="menu">
+        <li class="home"><a href="/"><strong>00</strong> HOME </a></li>
+        <li class="destino"> <a href="/destinos"><strong>01</strong> DESTINO</a></li>
+        <li class="crewMenu"> <a href="/equipe-tecnica"> <strong>02</strong> EQUIPE TÉCNICA</a></li>
+        <li class="tecnologia"><a href="/tecnologias"> <strong>03</strong> TECNOLOGIA</a></li>
+      </ul>
+      <div class="contain-menu-icon">
+        <input type="checkbox" id="mobile-menu-icon" name="cb" onclick="disparaMenu()">
+        <label for="mobile-menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
       </div>
-  </section>
-  <section class="crew">
-    <div class="containImg">
-        <img src="" alt="Douglas Hurley" id="imgTec">
+    </header>
+    <div class="apr">
+      <h1 class="num">02 </h1>
+      <h1 class="escolha"> CONHEÇA SUA EQUIPE</h1>
     </div>
+    <article>
+      <section class="tecnico">
 
-  </section>
-</article>
+        <h2 id="func"></h2>
+
+        <h3 id="nome"></h3>
+
+        <p id="resumo"></p>
+
+        <div class="equipe">
+          <button class="radio" id="comandante"></button>
+          <button class="radio" id="especialista"></button>
+          <button class="radio" id="piloto"></button>
+          <button class="radio" id="engenheira"></button>
+
+        </div>
+      </section>
+      <section class="crew">
+        <div class="containImg">
+          <img src="" alt="Douglas Hurley" id="imgTec">
+        </div>
+
+      </section>
+    </article>
 
   </main>
   <script src="./scripts/crew.js"></script>
   <script src="./scripts/menuMobile.js"></script>
-  
+
 </body>
+
 </html>

@@ -30,7 +30,8 @@ header {
     justify-content: space-between;
     margin-bottom: 120px;
 }
-.explore a{
+
+.explore a {
     letter-spacing: 2.75px;
     font-size: 28px;
     font-weight: normal;
@@ -51,19 +52,23 @@ header {
     border: none;
     transition: box-shadow 0.5s ease-in-out;
 }
-.home{
+
+.home {
     border-bottom: 2px solid #fff;
     width: 74px;
-  }
-  .destino{
-      width: 94px;
-  }
-  .crewMenu{
-      width: 155px;
-  }
-  .tecnologia{
-      width: 125px;
-  }
+}
+
+.destino {
+    width: 94px;
+}
+
+.crewMenu {
+    width: 155px;
+}
+
+.tecnologia {
+    width: 125px;
+}
 
 .escolha {
     letter-spacing: 0.75px;
@@ -240,7 +245,8 @@ label span:nth-child(3) {
         width: 80vw;
         scale: 0.9;
     }
-    header::after{
+
+    header::after {
         display: none;
     }
 
@@ -276,23 +282,28 @@ label span:nth-child(3) {
         padding-right: 6% !important;
         padding-left: 4% !important;
     }
-    .menu li{
+
+    .menu li {
         margin: 38px 20px 0px 20px !important;
         text-align: center;
-      }
-      .home{
+    }
+
+    .home {
         width: 57px;
-      }
-      .destino{
-          width: 70px;
-      }
-      .crewMenu{
+    }
+
+    .destino {
+        width: 70px;
+    }
+
+    .crewMenu {
         width: 122px;
-      }
-      .tecnologia{
-          width: 95px;
-      }
-    
+    }
+
+    .tecnologia {
+        width: 95px;
+    }
+
 
 }
 
@@ -340,7 +351,8 @@ label span:nth-child(3) {
         margin-bottom: 20% !important;
         width: 95%;
     }
-    .logo{
+
+    .logo {
         margin: 26px 0;
     }
 
@@ -353,7 +365,8 @@ label span:nth-child(3) {
         height: 150px;
         width: 150px;
     }
-    .explore a{
+
+    .explore a {
         font-size: 20px;
         padding: 65px 24px 65px 24px;
         color: #000;

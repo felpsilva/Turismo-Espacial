@@ -10,6 +10,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 header::after {
   content: "";
   display: block;
@@ -22,17 +23,20 @@ header::after {
 
 }
 
-.home{
+.home {
   width: 74px;
 }
-.destino{
-    width: 94px;
+
+.destino {
+  width: 94px;
 }
-.crewMenu{
-    width: 155px;
+
+.crewMenu {
+  width: 155px;
 }
-.tecnologia{
-    width: 125px;
+
+.tecnologia {
+  width: 125px;
 }
 
 article {
@@ -291,21 +295,26 @@ label span:nth-child(3) {
     align-items: end;
   }
 
-  header::after{
+  header::after {
     display: none;
   }
-  .home{
+
+  .home {
     width: 57px;
   }
-  .destino{
-      width: 70px;
+
+  .destino {
+    width: 70px;
   }
-  .crewMenu{
+
+  .crewMenu {
     width: 122px;
   }
-  .tecnologia{
-      width: 95px;
+
+  .tecnologia {
+    width: 95px;
   }
+
   .apr h5 {
     font-size: 20px;
   }
@@ -370,7 +379,7 @@ label span:nth-child(3) {
     display: block;
   }
 
-  
+
   article {
     display: flex !important;
     flex-direction: column-reverse;
@@ -378,9 +387,10 @@ label span:nth-child(3) {
     align-items: center;
     justify-content: flex-end;
   }
-  .logo{
+
+  .logo {
     margin: 26px 0;
-}
+  }
 
   main {
     justify-content: flex-start;

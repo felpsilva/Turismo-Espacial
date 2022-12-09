@@ -20,6 +20,7 @@ article {
 
   margin-left: 10%;
 }
+
 header::after {
   content: "";
   display: block;
@@ -32,17 +33,20 @@ header::after {
 
 }
 
-.home{
+.home {
   width: 74px;
 }
-.destino{
-    width: 94px;
+
+.destino {
+  width: 94px;
 }
-.crewMenu{
-    width: 155px;
+
+.crewMenu {
+  width: 155px;
 }
-.tecnologia{
-    width: 125px;
+
+.tecnologia {
+  width: 125px;
 }
 
 .container {
@@ -261,20 +265,25 @@ label span:nth-child(3) {
     height: 66%;
     justify-content: center;
   }
-  header::after{
+
+  header::after {
     display: none;
   }
-  .home{
+
+  .home {
     width: 57px;
   }
-  .destino{
-      width: 70px;
+
+  .destino {
+    width: 70px;
   }
-  .crewMenu{
+
+  .crewMenu {
     width: 122px;
   }
-  .tecnologia{
-      width: 95px;
+
+  .tecnologia {
+    width: 95px;
   }
 
   .tecnology img {
@@ -287,7 +296,8 @@ label span:nth-child(3) {
     padding-right: 6% !important;
     padding-left: 4% !important;
   }
-  .menu li{
+
+  .menu li {
     margin: 38px 20px 0px 20px !important;
   }
 
@@ -364,17 +374,19 @@ label span:nth-child(3) {
     right: 0;
     z-index: 1;
 
-}
-  .contain-menu-icon{
-    display:block;
   }
 
   .contain-menu-icon {
     display: block;
   }
-  .logo{
+
+  .contain-menu-icon {
+    display: block;
+  }
+
+  .logo {
     margin: 26px 0;
-}
+  }
 
   .buttons {
     width: 200px;

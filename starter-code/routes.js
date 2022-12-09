@@ -6,7 +6,7 @@ const menuTecnologiaControllers = require('./controllers/menuTecnologiaContorlle
 
 route.get('/destinos', menuControllers.destination);
 
-route.get('/equipeTecnica', menuEquipeTecControllers.tec1);
+route.get('/equipe-tecnica', menuEquipeTecControllers.tec1);
 
 route.get('/tecnologias', menuTecnologiaControllers.technology)
 
