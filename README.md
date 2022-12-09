@@ -26,7 +26,7 @@ Esta é uma solução para o [desafio do site de turismo espacial no Frontend Me
 - 3° digite o comando: **npm start**
 - 4° em seu navegador digite a url: *loacalhost:5050*
 
-*Obs: o site so irá rodar caso em sua máquina tenha instalado o nodejs e as dependencias do express*
+*Obs: o site só irá rodar caso em sua máquina tenha instalado o nodejs e as dependências do express*
 
 ### O desafio
 
@@ -54,7 +54,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-*Por conta do github pages não suportar parte do back-end, criei um repositório a parte com as tecnologias compatíveis, 
+*Pôr conta do github pages não suportar parte do back-end, criei um repositório a parte com as tecnologias compatíveis, 
 apenas para que seja hospedado.*
 
 <h3>acesse o link para ver a solução.</h3>
@@ -73,9 +73,9 @@ apenas para que seja hospedado.*
 
 ### Aprendizagem
 
-Meu principal ponto de aprendizagem se deu pela utilização do framework express do node js,
+Meu principal ponto de aprendizagem se deu pela utilização do framework express do nodejs,
 é uma ferramenta que possui como principal objetivo a facilitação no desenvolvimento de rotas
-(URL) ou camninhos, utilizando um protocolo de solicitação HTTP específico (GET, POST, etc...).
+(URL) ou caminhos, utilizando um protocolo de solicitação HTTP específico (GET, POST, etc...).
 
 
 
