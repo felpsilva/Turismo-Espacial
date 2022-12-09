@@ -81,7 +81,7 @@ section h3 {
 
 }
 
-.apr {
+.tituloPagina {
   margin-bottom: 5%;
   margin-left: 10%;
 }
@@ -315,7 +315,7 @@ label span:nth-child(3) {
     width: 95px;
   }
 
-  .apr h5 {
+  .tituloPagina h5 {
     font-size: 20px;
   }
 
@@ -419,7 +419,7 @@ label span:nth-child(3) {
     justify-content: center;
   }
 
-  #func {
+  #oficio {
     font-size: 15px;
   }
 
@@ -452,13 +452,13 @@ label span:nth-child(3) {
     height: 15px;
   }
 
-  .apr {
+  .tituloPagina {
     margin-bottom: 0;
     margin-left: 0;
     text-align: center;
   }
 
-  .apr h1 {
+  .tituloPagina h1 {
     font-size: 20px;
   }
 

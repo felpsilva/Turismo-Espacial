@@ -79,7 +79,7 @@ function selectAparence() {
 
 
 let imgTec = document.querySelector('#imgTec');
-let func = document.querySelector('#func');
+let oficio = document.querySelector('#oficio');
 let nome = document.querySelector('#nome');
 let resumo = document.querySelector('#resumo');
 let controler = 0
@@ -106,7 +106,7 @@ function sizeOfThings() {
 			let bio = equipe1.bio;
 			controler = 1
 
-			func.innerHTML = role;
+			oficio.innerHTML = role;
 			nome.innerHTML = name;
 			resumo.innerHTML = bio;
 
@@ -128,7 +128,7 @@ function sizeOfThings() {
 			let bio = equipe2.bio;
 			controler = 2
 
-			func.innerHTML = role;
+			oficio.innerHTML = role;
 			nome.innerHTML = name;
 			resumo.innerHTML = bio;
 		});
@@ -149,7 +149,7 @@ function sizeOfThings() {
 			let bio = equipe3.bio;
 			controler = 3
 
-			func.innerHTML = role;
+			oficio.innerHTML = role;
 			nome.innerHTML = name;
 			resumo.innerHTML = bio;
 		});
@@ -170,7 +170,7 @@ function sizeOfThings() {
 			let bio = equipe4.bio;
 			controler = 4
 
-			func.innerHTML = role;
+			oficio.innerHTML = role;
 			nome.innerHTML = name;
 			resumo.innerHTML = bio;
 		});
@@ -248,9 +248,7 @@ function upData() {
 	let name = equipe1.name;
 	let bio = equipe1.bio;
 
-	func.innerHTML = role;
+	oficio.innerHTML = role;
 	nome.innerHTML = name;
 	resumo.innerHTML = bio;
 }
-
-  //criar classes para atualizar a imagem do tecnico de acordo com o tamanho da tela  

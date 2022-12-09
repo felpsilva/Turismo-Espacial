@@ -16,7 +16,7 @@ article {
 }
 
 
-.apr {
+.tituloPagina {
 
   margin-left: 10%;
 }
@@ -352,11 +352,11 @@ label span:nth-child(3) {
     margin: 0 auto;
   }
 
-  .apr {
+  .tituloPagina {
     margin-bottom: 80px;
   }
 
-  .apr h5 {
+  .tituloPagina h5 {
     font-size: 20px;
   }
 }
@@ -409,11 +409,11 @@ label span:nth-child(3) {
     padding: 10px 0px 15px 0px;
   }
 
-  .apr h1 {
+  .tituloPagina h1 {
     font-size: 20px;
   }
 
-  .apr {
+  .tituloPagina {
     margin-bottom: 40px;
     text-align: center;
   }
