@@ -59,7 +59,7 @@ apenas para que seja hospedado.*
 
 <h3>acesse o link para ver a solução.</h3>
 
-- URL da Solção: [https://felpsilva.github.io/Turismo-Espacial--View--/](https://felpsilva.github.io/Turismo-Espacial--View--/)
+- URL: [https://felpsilva.github.io/Turismo-Espacial--View--/](https://felpsilva.github.io/Turismo-Espacial--View--/)
 
 ### Construído com
 
